@@ -1,7 +1,7 @@
 ﻿<?php
 
 $config=array(
-	'DEBUG_MODE'		    =>true,
+	'DEBUG_MODE'		    =>false,
 	'DB_TYPE'				=>'mysql',					
 	'DB_HOST'				=>'localhost',  
 	'DB_USER'				=>'root', 
@@ -19,7 +19,7 @@ $config=array(
 	/*文章提交的限定时间*/
 	'TIMEOUT'				=>3,
 	/*文章管理每页显示的数量*/
-	'ARTNUMS'               =>18,
+	'ARTNUMS'               =>17,
 	/*在这个时间范围内登陆只算一次*/
 	'LGTIME'				=>3600,
 	/*图片上传目录*/

@@ -3219,3 +3219,42 @@
 
 [ 09-05-10 11:52:45 ]
 注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:54:53 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 11:54:53 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+[ 09-05-10 11:56:20 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:56:05]  () Action->__call(非法操作images)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 11:56:21 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:56:05]  () Action->__call(非法操作images)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 11:56:49 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:56:05]  () Action->__call(非法操作images)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+

@@ -38,10 +38,9 @@ body {
     </label>
     <input type="submit" name="add" id="button"  value="添加" />
 </p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
+
 <?php if(C("TOKEN_ON")):?><input type="hidden" name="<?php echo C("TOKEN_NAME");?>" value="<?php echo Session::get(C("TOKEN_NAME")); ?>"/><?php endif;?></form>
-<form id="form1" name="article" method="post" action="/hakuams/index.php/Category/modify1">
+<form id="form1" name="article" method="post" action="/hakuams/index.php/Category/modify">
   	<p class="STYLE1">	<b>修改目录：</b></p>
   	<p>请选择所要修改的目录：
   	  <label>
@@ -55,8 +54,7 @@ body {
   	  </label>
   	  <input type="submit" name="确认" id="3" value="确认" />
   	</p>
-  	<p>&nbsp;</p>
-  	<p>&nbsp;</p>
+
 <?php if(C("TOKEN_ON")):?><input type="hidden" name="<?php echo C("TOKEN_NAME");?>" value="<?php echo Session::get(C("TOKEN_NAME")); ?>"/><?php endif;?></form>
 <form id="form3" name="form3" method="post" action="/hakuams/index.php/Category/delcate">
   <p><b>删除目录：</b></p>

@@ -86,7 +86,7 @@ class CategoryAction extends Action{
 		
 	}
 	
-	public function modify1()
+	public function modify()
 	{
 		$this->common();
 		
