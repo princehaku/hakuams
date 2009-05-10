@@ -88,23 +88,26 @@ class ArticleAction extends Action{
 		//最高管理员显示所有文章
 				$result=$cate->LIMIT("$pgnum,$pglit")->order("data DESC")->findall();
 				}
-		//如果开启文章权限功能
-		if(C('PERMISSION')==1){
-			
+		
+			$k=0;
 			foreach($result as $i=>$j)
 				{
-					$result[$i]['shortcon']=$result[$i]['content'];
-					if ($j['exam']==0 & $_SESSION['admin']==1)
-					{
-						$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/exam/id/".$j['id']."'>授权</a>";
-					}
-					if ($j['exam']==1 & $_SESSION['admin']==1)
-					{
-						$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/unexam/id/".$j['id']."'>取消授权</a>";
-					}
+					//添加oid,用于opinion
+					$result[$i]['oid']=$k++;
+			        //如果开启文章权限功能
+					if(C('PERMISSION')==1){
+						if ($j['exam']==0 & $_SESSION['admin']==1)
+						{
+							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/exam/id/".$j['id']."'>授权</a>|";
+						}
+						if ($j['exam']==1 & $_SESSION['admin']==1)
+						{
+							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/unexam/id/".$j['id']."'>消权</a>|";
+						}
+					 }
 					//$result[$i]['shortcon']=substr(str_replace("img","",$result[$i]['content']),0,700);
 				}
-		}
+		
 		$this->assign('list',$result);
 		
 		$this->display('show');
@@ -448,13 +451,12 @@ class ArticleAction extends Action{
 		//如果上传的是图片转入图片处理
 		if($_POST['doctype']==1){
 			
-			$doc->shortcontent=htmlspecialchars(str_replace("</script>","",str_replace("\\\"","\"",$_POST['shortcontent'])));
-			
-			$doc->ispic=1;
+		    $doc->ispic=1;
 			
 			$doc->picurl=$this->savepic();
 			}
-		$doc->data=time();
+		//$doc->data=time();
+		
 		if(
 		$doc->where(array('id'=>$_POST['artid']))->save()
 		){

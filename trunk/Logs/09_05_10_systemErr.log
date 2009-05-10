@@ -2063,3 +2063,1159 @@
 [09-05-10 11:10:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
 [09-05-10 11:10:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
 
+[ 09-05-10 11:10:58 ]
+
+错误信息：[ job User registor ]非法操作registor
+错误页面：/hakuams/hakuams/index.php/User/registor
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:10:05]  () Action->__call(非法操作registor)
+[09-05-10 11:10:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->registor(registor, Array)
+[09-05-10 11:10:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:10:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 11:13:31 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:13:31 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:13:31 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:13:36 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:13:36 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 285 行.
+
+[ 09-05-10 11:14:03 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:03 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:03 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:05 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:14:05 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 285 行.
+
+[ 09-05-10 11:14:15 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:15 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:15 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:14:17 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:14:17 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 285 行.
+
+[ 09-05-10 11:16:15 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:16:15 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 236 行.
+
+[ 09-05-10 11:16:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:16:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:16:56 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:16:57 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:16:57 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 247 行.
+
+[ 09-05-10 11:17:16 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:17:16 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:17:16 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:17:17 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:17:17 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 247 行.
+
+[ 09-05-10 11:18:02 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:18:02 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 248 行.
+
+[ 09-05-10 11:18:20 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:18:20 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:18:20 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:18:22 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:18:22 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 249 行.
+
+[ 09-05-10 11:19:35 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:19:35 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 249 行.
+
+[ 09-05-10 11:20:45 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:20:45 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:20:52 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:20:52 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:21:04 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:21:04 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:21:26 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:21:26 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 248 行.
+
+[ 09-05-10 11:21:51 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:21:52 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 245 行.
+
+[ 09-05-10 11:22:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:22:20 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:25:59 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:25:59 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:26:12 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:26:13 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:26:41 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:26:41 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:26:41 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:26:42 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:26:48 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:26:49 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:26:49 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:27:38 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 11:27:42 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 11:27:43 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:27:43 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:27:46 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:28:05 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 6 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 7 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 8 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 9 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 10 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: pub 4da816a063f42d6a2289eb3804dbd91b.php 第 11 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 32 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 48 行.
+
+[ 09-05-10 11:28:25 ]
+注意：[8] Undefined variable: cate 4da816a063f42d6a2289eb3804dbd91b.php 第 64 行.
+
+[ 09-05-10 11:28:36 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:28:36 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:28:36 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:29:04 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:29:04 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:29:04 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 11:29:05 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 11:29:05 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:29:05]  () Action->__call(非法操作images)
+[09-05-10 11:29:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 11:29:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:29:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 11:29:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:29:07 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:29:08 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:29:08 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:29:40 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:29:40 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:29:42 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:29:42 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:31:27 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:31:27 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 250 行.
+
+[ 09-05-10 11:37:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:37:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:37:56 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:37:58 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 177 行.
+[ 09-05-10 11:38:03 ]
+
+错误信息：[ job Article del ]Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : delete from `hakucms_document` where `id`=undefined Limit 1
+错误页面：/hakuams/hakuams/index.php/Article/del/id/undefined
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Unknown column 'undefined' in 'where clause'
+ [ SQL语句 ] : delete from `hakucms_document` where `id`=undefined Limit 1)
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(delete from `hakucms_document` where `id`=undefined Limit 1, , , )
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\ArticleAction.class.php (240) Model->query(delete from `hakucms_document` where `id`=undefined Limit 1, , )
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) ArticleAction->del(delete from `hakucms_document` where `id`=undefined Limit 1)
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:38:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 11:38:48 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:38:48 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:38:48 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:38:49 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 177 行.
+
+[ 09-05-10 11:39:22 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:39:22 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:39:22 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:24 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 177 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 99 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: vo 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Trying to get property of non-object 1e55212a6170d8842e47d604a1d019ea.php 第 102 行.
+
+[ 09-05-10 11:39:42 ]
+注意：[8] Undefined variable: page 1e55212a6170d8842e47d604a1d019ea.php 第 177 行.
+
+[ 09-05-10 11:42:21 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:42:42 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:43:27 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:43:48 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:44:11 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:44:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:18 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:44:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:44:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:44:56 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:45:15 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:45:19 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:45:21 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:45:58 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:46:05 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:46:47 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 11:46:49 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 11:47:14 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:47:16 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:27 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:28 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:47:31 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:31 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:31 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:31 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:42 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:42 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:44 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:47:47 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:54 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:47:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:47:56 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:48:00 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:00 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:00 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:00 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:08 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:08 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:08 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:08 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:10 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:48:12 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:12 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:12 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:12 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:19 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:19 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:19 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:19 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:19 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:48:24 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:48:24 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:48:50 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:50 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:50 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:50 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:57 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:48:57 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:57 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:57 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:48:59 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:49:05 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:49:05 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:05 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:05 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:11 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:49:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:11 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:14 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:49:18 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:49:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:18 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:29 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:49:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:49:30 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:50:26 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 11:50:29 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 11:50:49 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:50:51 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 11:50:54 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 11:50:56 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 11:50:57 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 11:50:05]  () Action->__call(非法操作images)
+[09-05-10 11:50:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 11:50:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 11:50:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 11:51:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:51:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:51:25 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:00 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:00 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:00 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:25 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:52:43 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 11:52:44 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:44 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:44 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 11:52:45 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
