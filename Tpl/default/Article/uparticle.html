@@ -1,0 +1,47 @@
+<tagLib name="html" />
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文章管理系统</title>
+<script language='JavaScript' src='{$pub}/Js/main.js'></script>
+<script language='JavaScript' src='{$pub}/Js/picnews.js'></script>
+<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/mootools.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/Ajax/ThinkAjax.js'></script>
+<script language='JavaScript' src='{$pub}/Js/Form/CheckForm.js'></script>  
+
+</head>
+<body bgcolor="#99CCCC" onLoad="showpic();">
+	<form action="__APP__/Article/uparticle" method="post" enctype="multipart/form-data" name="article" id="article">
+    <input name="artid" type="hidden" value="{$artid}">
+	<p style="margin-right=10px;">标题 
+	  <input name="title" type="text" value="{$title}"/>
+	
+	文章类型[
+	<label>
+	  <input name="doctype" type="radio" id="doctype_0" value="0" onClick="showpic();" checked="checked" />
+	  标准 </label>
+    <label>
+      <input name="doctype" type="radio" id="doctype_1" onClick="showpic();" value="1" />
+      图文</label>
+]
+	<p>目录<select name="category" id="category">
+      <option value="{$nowcate}">{$nowcatename}</option>
+     <volist  name="cate" id="vo">
+      <option value="{$vo.id}">{$vo.name}</option>
+       </volist>
+      </select></p>
+          <div id="image"></div>
+正文<br>
+<html:editor type="FCKeditor" id="editor" name="content" content="{$content}"  height="450px;" width="700px;"  /><br>
+
+    <input name="" type="submit" value="更新" style="margin-right:40px"/>
+    <a href="__APP__/Article/index">返回</a>
+    </form>
+
+
+</body>
+</html>
+

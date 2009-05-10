@@ -1,0 +1,290 @@
+body
+{
+	margin: 0 auto;
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #616161;
+	text-align: justify
+}
+.wrapper
+{
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	position: fixed;
+}
+/**************************** Header Section Starts ***************************/
+.header
+{
+	width: 1024px;
+	height: 146px;
+	background-repeat: no-repeat;
+
+}
+/**************************** Second Section Ends *****************************/
+
+/**************************** Menu Section Starts *****************************/
+.menu
+{
+	width: 1024px;
+	height: 45px;
+	background: url(../images/menu.gif);
+	background-repeat: no-repeat;
+}
+
+.menu-text
+{
+font-family: verdana;
+font-size: 14px;
+color: #ffffff;
+padding: 12px 45px 10px 10px;
+float: left;
+font-stretch: condensed;
+cursor: pointer;
+}
+
+
+/**************************** Menu Section Ends *******************************/
+
+/**************************** First Section Starts ****************************/
+.first-section
+{
+	width: 1024px;
+	height: 235px;
+}
+.right-image
+{
+	width: 230px;
+	height: 235px;
+	float: right;
+	background-image: url(../images/right-image.jpg);
+	background-repeat: repeat;
+	border-left: solid 1px #ffffff;
+	text-align: left;
+	margin-right: 65px;
+}
+.mid-image
+{
+	width: 443px;
+	height: 235px;
+	float: right;
+	background-repeat: no-repeat;
+	padding-right: 0px;
+}
+.down-image
+{
+	width: 680px;
+	height: 235px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-right: 62px;
+}
+
+
+.left-image
+{
+	width: 225px;
+	height: 235px;
+	float: right;
+	/*background-image: url(../images/left-image.jpg);
+	background-repeat: repeat-x;*/
+	border-right: solid 1px #ffffff;
+	text-align: left;
+}
+.left-down
+{
+	width: 232px;
+	height: 235px;
+	float: right;
+	/*background-repeat: repeat-x;
+	border-right: solid 1px #ffffff;*/
+	text-align: left;
+	/*background-color: #F30;*/
+}
+
+
+/**************************** First Section Ends ******************************/
+
+/**************************** Second Section Starts ***************************/
+
+.second-section
+{
+  width: 675px;
+  height: 139px;
+  border-bottom: solid 1px #dbdbdb;
+  float: right;
+}
+.pack-box3
+{
+  width: 230px;
+  height: 139px;
+  float: right;
+  background-image: url(../images/pack-image.jpg);
+  background-repeat: repeat-x;
+  border-left: solid 1px #ffffff;
+  text-align: left;
+}
+
+.pack-box2
+{
+  width: 221px;
+  height: 139px;
+  float: right;
+  background-image: url(../images/pack-image.jpg);
+  background-repeat: repeat-x;
+  border-left: solid 1px #ffffff;
+  text-align: left;
+}
+.pack-box1
+{
+  width: 221px;
+  height: 139px;
+  float: right;
+  background-image: url(../images/pack-image.jpg);
+  background-repeat: repeat-x;
+  border-left: solid 1px #ffffff;
+  text-align: left;
+}
+
+/**************************** Second Section Ends *****************************/
+
+/**************************** Third Section Starts ****************************/
+
+
+/**************************** Third Section Ends ******************************/
+
+/**************************** Left Section Starts *****************************/
+
+.left-section
+{
+  width: 238px;
+  height: 309px;
+  float: right;
+}
+
+
+
+
+/**************************** Left Section Ends *******************************/
+
+/**************************** Footer Section Starts ***************************/
+.footer
+{
+	float: right;
+	width: 1024px;
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #616161;
+	text-align: center;
+	margin-top: 18px;
+	clear: both;
+	margin-bottom: 10px;
+}
+/**************************** Footer Section Ends *****************************/
+
+/**************************** General Section Starts **************************/
+.title1
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #8f8383;
+	margin-top: 10px;
+}
+.title2
+{
+  font-family: Tahoma;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #535353;
+}
+.title3
+{
+  font-family: Tahoma;
+  font-size: 14pt;
+  font-weight: normal;
+  color: #616161;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+.sub-title
+{
+  font-family: Tahoma;
+  font-size: 8pt;
+  font-weight: normal;
+  color: #3f3a3a;
+  margin-left: 12px;
+}
+.description
+{
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #616161;
+	text-align: right;
+	width: 195px;
+	line-height: 18px;
+	margin-left: 12px;
+	margin-top: 2px;
+}
+
+.description1
+{
+  font-family: Tahoma;
+  font-size: 8pt;
+  font-weight: normal;
+  color: #616161;
+  text-align: justify;
+  width: 400px;
+  line-height: 18px;
+  margin-left: 12px;
+  margin-top: 2px;
+}
+
+.date-text{
+	font-family: Tahoma;
+	font-size: 10pt;
+	margin-left: 12px;
+	margin-top: 2px;
+	font-weight: 400;
+}
+
+
+hr{
+  background-color: #00deff;
+  width: 200px;
+  color: #00deff;
+  border: solid 1px #00deff;
+
+}
+a.nav:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.nav:visited {color: #ffffff; text-decoration: none; }
+a.nav:hover {color: #ffff99; text-decoration: underline; }
+a.nav:active {color: blue; }
+
+a.link2{
+	
+	width:60px; color:#FFF; margin:0px 10px; background-color: #F00;
+	}
+a.link2:link {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #F00;
+}
+a.link1{
+	
+	width:60px; color:#FFF; margin:0px 10px;
+	}
+a.link1:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+
+
+/**************************** General Section Ends ****************************/
