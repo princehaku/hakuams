@@ -24,6 +24,10 @@ a:visited {
 	color:#000;
 	text-decoration:none;
 }
+a {
+	color:#000;
+	text-decoration:none;
+}
 .STYLE {
 	font-size: 12px
 	}

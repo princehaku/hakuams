@@ -6,17 +6,7 @@ email baizhongwei@163.com
 blog  http://hi.baidu.com/baizhongwei(主)
 	  http://baizhongwei.hackbase.com
 */
-//确认是否删除文件
-function delarticle(id)
-{
-	url="/index.php/Article/del/id/"+id;
-	if(confirm("确认删除吗?")==true){
-		//alert(url);
-		self.location=url;
-		}
-	
-	}
- 
+
 //提交文章时的判断
 function subdoc()
 {

@@ -13,11 +13,13 @@ $config=array(
 	/*网站目录*/
 	'PUBURL' 		        =>"http://".$_SERVER['HTTP_HOST']."/hakuams",
 	/*网站数据库地址*/
-	'DATABASEURL' 		        =>"/phpMyAdmin",
+	'DATABASEURL' 		    =>"/phpMyAdmin",
+	/*是否开启用户注册功能*/
+	'CANREGISTER'           =>0,
 	/*文章提交的限定时间*/
 	'TIMEOUT'				=>3,
 	/*文章管理每页显示的数量*/
-	'ARTNUMS'               =>20,
+	'ARTNUMS'               =>18,
 	/*在这个时间范围内登陆只算一次*/
 	'LGTIME'				=>3600,
 	/*图片上传目录*/
@@ -50,6 +52,10 @@ $config=array(
 				 'name'=>'管理文章'
 				 ),
 		2=>array(
+				 'url'=>"/Category/index",
+				 'name'=>'目录管理'
+				 ),
+		3=>array(
 				 'url'=>"/User/showall",
 				 'name'=>'用户管理'
 				 ),

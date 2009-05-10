@@ -3,6 +3,19 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>无标题文档</title>
+<script language='JavaScript' src='<?php echo ($pub); ?>/Js/prototype.js'></script>  
+<script language='JavaScript'>
+//删除文章的确认
+function delarticle(id)
+{
+	url="/hakuams/index.php/Article/del/id/"+id;
+	if(confirm("确认删除吗?")==true){
+		//alert(url);
+		self.location=url;
+		}
+	
+	}
+</script>
 <style type="text/css">
 <!--
 body {
@@ -29,57 +42,23 @@ body {
 	font-size: 12px;
 	color: #295568;
 }
+.STYLE19 div {
+   overflow:hidden;
+   height:20px;
+   vertical-align:middle;
+   line-height:20px;
+}
+a:link {
+	color: #09F;
+}
+a:visited {
+	color: #09F;
+}
+a:active {
+	color: #0CF;
+}
 -->
 </style>
-<script>
-var  highlightcolor='#d5f4fe';
-//此处clickcolor只能用win系统颜色代码才能成功,如果用#xxxxxx的代码就不行,还没搞清楚为什么:(
-var  clickcolor='#51b2f6';
-function  changeto(){
-source=event.srcElement;
-if  (source.tagName=="TR"||source.tagName=="TABLE")
-return;
-while(source.tagName!="TD")
-source=source.parentElement;
-source=source.parentElement;
-cs  =  source.children;
-//alert(cs.length);
-if  (cs[1].style.backgroundColor!=highlightcolor&&source.id!="nc"&&cs[1].style.backgroundColor!=clickcolor)
-for(i=0;i<cs.length;i++){
-	cs[i].style.backgroundColor=highlightcolor;
-}
-}
-
-function  changeback(){
-if  (event.fromElement.contains(event.toElement)||source.contains(event.toElement)||source.id=="nc")
-return
-if  (event.toElement!=source&&cs[1].style.backgroundColor!=clickcolor)
-//source.style.backgroundColor=originalcolor
-for(i=0;i<cs.length;i++){
-	cs[i].style.backgroundColor="";
-}
-}
-
-function  clickto(){
-source=event.srcElement;
-if  (source.tagName=="TR"||source.tagName=="TABLE")
-return;
-while(source.tagName!="TD")
-source=source.parentElement;
-source=source.parentElement;
-cs  =  source.children;
-//alert(cs.length);
-if  (cs[1].style.backgroundColor!=clickcolor&&source.id!="nc")
-for(i=0;i<cs.length;i++){
-	cs[i].style.backgroundColor=clickcolor;
-}
-else
-for(i=0;i<cs.length;i++){
-	cs[i].style.backgroundColor="";
-}
-}
-</script>
-
 
 </head>
 
@@ -92,11 +71,19 @@ for(i=0;i<cs.length;i++){
           <tr>
             <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
               <tr>
-                <td width="6%" height="19" valign="bottom"><div align="center"><img src="<?php echo ($pub); ?>/Images/tb.gif" width="14" height="14" /></div></td>
-                <td width="94%" valign="bottom"><span class="STYLE1"> 文档查看</span></td>
+                <td width="94%" valign="bottom"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td><table width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td width="6%" height="19" valign="bottom"><div align="center"><img src="<?php echo ($pub); ?>/Images/tb.gif" width="14" height="14" /></div></td>
+                        <td width="94%" valign="bottom"><span class="STYLE1"> 文档查看</span></td>
+                      </tr>
+                    </table></td>
+                    <td><div align="right"><span class="STYLE1">&nbsp;</span><span class="STYLE1"> &nbsp;</span></div></td>
+                  </tr>
+                </table>                  <span class="STYLE1"></span></td>
               </tr>
             </table></td>
-            <td><div align="right"><span class="STYLE1">&nbsp;</span><span class="STYLE1"> &nbsp;</span></div></td>
           </tr>
         </table></td>
       </tr>
@@ -105,118 +92,32 @@ for(i=0;i<cs.length;i++){
   <tr>
     <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" onmouseover="changeto()"  onmouseout="changeback()">
       <tr>
-        <td width="4%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
+        <td width="5%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
           <input type="checkbox" name="checkbox" id="checkbox" />
         </div></td>
-        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center">标题</div></td>
-        <td width="15%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">发布者</span></div></td>
-        <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">发布时间</span></div></td>
-        <td width="16%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">IP地址</span></div></td>
-        <td width="27%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">详细描述</span></div></td>
-        <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">基本操作</span></div></td>
-      </tr>
-      <tr>
+        <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">标题</div></td>
+        <td width="11%" bgcolor="d3eaef" class="STYLE10"><div align="center" class="STYLE10">操作</div></td>
+        <td width="33%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">简略描述</div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">所在目录</div></td>
+        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">发布者</div></td>
+        <td width="17%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">发布时间</span></div></td>
+        </tr>
+ <!--文章列表开始-->       
+  <?php if(is_array($list)): ?><?php $i = 0;?><?php $__LIST__ = $list?><?php if( count($__LIST__)==0 ) : echo "" ; ?><?php else: ?><?php foreach($__LIST__ as $key=>$vo): ?><?php ++$i;?><?php $mod = (($i % 2 )==0)?><tr>
         <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox2" id="checkbox2" />
+          <input type="checkbox" name="article<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" id="checkbox<?php echo (is_array($vo)?$vo["oid"]:$vo->oid); ?>" />
         </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE6"><div align="center"><span class="STYLE19">admin</span></div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19"><?php echo (is_array($vo)?$vo["title"]:$vo->title); ?></span></div></td>
+        <td bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["through"]:$vo->through); ?><a href="/hakuams/index.php/Article/show/id/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" target="_blank">查看</a>|<a href="/hakuams/index.php/Article/editarticle/articleid/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>">编辑</a>|<a href="#" onclick="delarticle(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>);">删除</a></div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center" class="STYLE19"><?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?> </div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center" class="STYLE21">删除 | 查看</div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox3" id="checkbox3" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox4" id="checkbox4" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox5" id="checkbox5" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox6" id="checkbox6" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox7" id="checkbox7" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox8" id="checkbox8" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox9" id="checkbox9" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
-      <tr>
-        <td height="20" bgcolor="#FFFFFF"><div align="center">
-          <input type="checkbox" name="checkbox10" id="checkbox10" />
-        </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">admin</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">系统管理员</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">192.168.0.124</div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">用户可以对系统的所有操作进行管理...</div></td>
-        <td height="20" bgcolor="#FFFFFF"><div align="center"><span class="STYLE21">删除 | 查看</span></div></td>
-      </tr>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["writer"]:$vo->writer); ?></div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><strong><?php echo (timeto(is_array($vo)?$vo["data"]:$vo->data)); ?></strong></div></td>
+        </tr><?php endforeach; ?><?php endif; ?><?php else: echo "" ;?><?php endif; ?>
+<!--文章列表结束-->             
     </table>
 
-      <div><input type="checkbox" name="checkbox11" id="checkbox11" />反选      &nbsp;&nbsp;<img src="<?php echo ($pub); ?>/Images/add.gif" alt="" width="10" height="10" /> 添加   &nbsp; <img src="<?php echo ($pub); ?>/Images/del.gif" alt="" width="10" height="10" /> 删除    &nbsp;&nbsp;<img src="<?php echo ($pub); ?>/Images/edit.gif" alt="" width="10" height="10" /> 编辑 </div>
+      <div class="STYLE10"><input type="checkbox" name="checkbox11" id="checkbox11" />反选      &nbsp;&nbsp;<img src="<?php echo ($pub); ?>/Images/add.gif" alt="" width="10" height="10" /> 添加   &nbsp; <img src="<?php echo ($pub); ?>/Images/del.gif" alt="" width="10" height="10" /> 删除    &nbsp;&nbsp;<img src="<?php echo ($pub); ?>/Images/edit.gif" alt="" width="10" height="10" /> 编辑 </div>
 </td>
   </tr>
   <tr>
@@ -241,47 +142,5 @@ for(i=0;i<cs.length;i++){
     </table></td>
   </tr>
 </table>
-</body>
-</html>
-
-
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>文章管理系统</title>
-<link href="<?php echo ($pub); ?>/style.css" rel="stylesheet" type="text/css" />
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/main.js'></script>
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/Base.js'></script>  
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/prototype.js'></script>  
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/mootools.js'></script>  
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/Ajax/ThinkAjax.js'></script>
-<script language='JavaScript' src='<?php echo ($pub); ?>/Js/Form/CheckForm.js'></script>  
-</head>
-
-<body style="background-color:#99CCCC">
-<div id="mainPan">仅显示距今30天内的文章
-<div id="rightPan">
-  <p><?php if(is_array($list)): ?><?php $i = 0;?><?php $__LIST__ = $list?><?php if( count($__LIST__)==0 ) : echo "" ; ?><?php else: ?><?php foreach($__LIST__ as $key=>$vo): ?><?php ++$i;?><?php $mod = (($i % 2 )==0)?><table width="98%" cellpadding="0" cellspacing="0" class="">
-  <tr>
-    <td width="32%" bgcolor="#FFCCFF"><font color="#000000"><font style="font-size: 14px;" color="#ff0000"><?php echo (is_array($vo)?$vo["title"]:$vo->title); ?></font></font></td>
-    <td width="9%" align="center" bgcolor="#FFCCFF"><font color="#996600"><?php echo (is_array($vo)?$vo["through"]:$vo->through); ?></font></td>
-    <td width="9%" align="center" bgcolor="#FFCCFF"><a href="/hakuams/index.php/Article/show/id/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" target="_blank">查看</a></td>
-    <td width="12%" align="center" bgcolor="#FFCCFF"><a href="/hakuams/index.php/Article/editarticle/articleid/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>">编辑</a><a href="#" onclick="delarticle(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>);"></a></td>
-    <td width="10%" align="center" bgcolor="#FFCCFF"><a href="#" onclick="delarticle(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>);">删除</a><a href="/hakuams/index.php/Article/editarticle/articleid/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>"></a></td>
-    <td width="28%" align="center" bgcolor="#FFCCFF">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="6" background="<?php echo ($pub); ?>/Images/bg_dian.gif" height="1"></td>
-  </tr>
-  <tr valign="top">
-    <td colspan="6"><?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?></td>
-  </tr>
-  <tr valign="top">
-    <td colspan="6"><p><font size='2'><strong><span class="STYLE3">上传者<span class="STYLE5"> <?php echo (is_array($vo)?$vo["writer"]:$vo->writer); ?></span></span></strong></font><span class="STYLE3">           <font size='2'><strong>上传时间:</strong></font><font color="#006699" size='2'><strong><?php echo (timeto(is_array($vo)?$vo["data"]:$vo->data)); ?></strong></font></span></p></td>
-  </tr>
-</table>
-                        <hr/><?php endforeach; ?><?php endif; ?><?php else: echo "" ;?><?php endif; ?></p><$page></div>
-<?php echo ($page); ?>
 </body>
 </html>
