@@ -1,0 +1,799 @@
+
+[ 09-05-06 19:12:01 ]
+ RunTime:0.105743s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 19:14:02 ]
+ RunTime:0.000337s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 19:14:10 ]
+ RunTime:0.000399s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 20:04:52 ]
+ RunTime:0.023489s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:04:52 ]
+ RunTime:0.000403s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:04:52 ]
+ RunTime:0.003666s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:04:52 ]
+ RunTime:0.010170s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239019492 AND `data` <= 1241611492 ) ORDER BY data DESC
+[ 09-05-06 20:04:55 ]
+ RunTime:0.004996s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:04:55 ]
+ RunTime:0.008064s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 20:04:55 ]
+ RunTime:0.004232s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:04:55 ]
+ RunTime:0.000833s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 20:04:55 ]
+ RunTime:0.035234s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107145 AND `ltime` <= 1241611495 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 20:04:55 ]
+ RunTime:0.001204s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107145 AND `data` <= 1241611495 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 20:04:56 ]
+ RunTime:0.003591s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 20:04:56 ]
+ RunTime:0.000537s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 20:05:05 ]
+ RunTime:0.003995s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 20:05:05 ]
+ RunTime:0.000320s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 20:05:06 ]
+ RunTime:0.002713s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:05:06 ]
+ RunTime:0.000417s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:05:06 ]
+ RunTime:0.002766s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:05:06 ]
+ RunTime:0.009162s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239019506 AND `data` <= 1241611506 ) ORDER BY data DESC
+[ 09-05-06 20:05:08 ]
+ RunTime:0.002814s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:05:08 ]
+ RunTime:0.002072s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 20:05:08 ]
+ RunTime:0.000318s SQL = SELECT * FROM hakucms_document WHERE ( `id` = '177' ) LIMIT 1 
+[ 09-05-06 20:05:08 ]
+ RunTime:0.000201s SQL = SELECT * FROM hakucms_category WHERE ( `id` = '3' )
+[ 09-05-06 20:05:08 ]
+ RunTime:0.000352s SQL = SELECT * FROM hakucms_category WHERE ( `upcat` = 0 ) AND ( `type` = 1 )
+[ 09-05-06 20:05:08 ]
+ RunTime:0.001873s SQL = SELECT * FROM hakucms_document WHERE ( `cateid` = 1 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 10 
+[ 09-05-06 20:05:08 ]
+ RunTime:0.001516s SQL = SELECT * FROM hakucms_document WHERE ( `cateid` != 1 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 5 
+[ 09-05-06 20:05:11 ]
+ RunTime:0.002922s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:05:11 ]
+ RunTime:0.000416s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:05:11 ]
+ RunTime:0.002483s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:05:11 ]
+ RunTime:0.000351s SQL = SELECT * FROM hakucms_document WHERE ( `id` = '177' )
+[ 09-05-06 20:05:11 ]
+ RunTime:0.003496s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 20:05:11 ]
+ RunTime:0.000447s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 20:06:07 ]
+ RunTime:0.002546s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:06:07 ]
+ RunTime:0.002271s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:06:07 ]
+ RunTime:0.002381s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:06:07 ]
+ RunTime:0.004404s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239019567 AND `data` <= 1241611567 ) ORDER BY data DESC
+[ 09-05-06 20:06:08 ]
+ RunTime:0.003678s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:06:08 ]
+ RunTime:0.002537s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 20:06:08 ]
+ RunTime:0.002354s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:06:08 ]
+ RunTime:0.000261s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 20:06:08 ]
+ RunTime:0.000266s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107192 AND `ltime` <= 1241611568 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 20:06:08 ]
+ RunTime:0.004030s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107192 AND `data` <= 1241611568 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 20:06:09 ]
+ RunTime:0.005901s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:06:09 ]
+ RunTime:0.000573s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:06:12 ]
+ RunTime:0.002599s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 20:06:12 ]
+ RunTime:0.000469s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 20:06:12 ]
+ RunTime:0.006183s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 20:06:12 ]
+ RunTime:0.000573s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 20:06:12 ]
+ RunTime:0.003657s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 20:06:12 ]
+ RunTime:0.025659s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239019572 AND `data` <= 1241611572 ) ORDER BY data DESC
+[ 09-05-06 21:10:05 ]
+ RunTime:0.002286s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:10:05 ]
+ RunTime:0.004588s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:11:27 ]
+ RunTime:0.002990s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:11:27 ]
+ RunTime:0.000412s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:11:33 ]
+ RunTime:0.002498s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:11:33 ]
+ RunTime:0.000413s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:13:37 ]
+ RunTime:0.011852s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:13:37 ]
+ RunTime:0.000858s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:13:37 ]
+ RunTime:0.003496s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:13:37 ]
+ RunTime:0.005545s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239023617 AND `data` <= 1241615617 ) ORDER BY data DESC
+[ 09-05-06 21:13:38 ]
+ RunTime:0.002994s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:13:38 ]
+ RunTime:0.000364s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:13:59 ]
+ RunTime:0.002968s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:13:59 ]
+ RunTime:0.000326s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:14:43 ]
+ RunTime:0.002729s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:14:43 ]
+ RunTime:0.000567s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:15:11 ]
+ RunTime:0.002246s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:15:11 ]
+ RunTime:0.000294s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:15:14 ]
+ RunTime:0.003323s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:15:14 ]
+ RunTime:0.000594s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:15:21 ]
+ RunTime:0.003536s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:15:21 ]
+ RunTime:0.000440s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:16:06 ]
+ RunTime:0.002791s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:16:06 ]
+ RunTime:0.000355s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:16:06 ]
+ RunTime:0.004187s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:16:06 ]
+ RunTime:0.006962s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239023766 AND `data` <= 1241615766 ) ORDER BY data DESC
+[ 09-05-06 21:16:08 ]
+ RunTime:0.003018s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:16:08 ]
+ RunTime:0.000372s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:16:18 ]
+ RunTime:0.002389s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:16:18 ]
+ RunTime:0.000722s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:21:13 ]
+ RunTime:0.002494s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:21:13 ]
+ RunTime:0.002144s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:22:27 ]
+ RunTime:0.002483s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:22:27 ]
+ RunTime:0.002372s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:22:27 ]
+ RunTime:0.004679s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:22:27 ]
+ RunTime:0.000451s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:22:27 ]
+ RunTime:0.000360s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107173 AND `ltime` <= 1241616147 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:22:27 ]
+ RunTime:0.001530s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107173 AND `data` <= 1241616147 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:22:29 ]
+ RunTime:0.003093s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:22:29 ]
+ RunTime:0.002989s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:22:29 ]
+ RunTime:0.003433s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:22:29 ]
+ RunTime:0.000417s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:22:29 ]
+ RunTime:0.000303s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107171 AND `ltime` <= 1241616149 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:22:29 ]
+ RunTime:0.001288s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107171 AND `data` <= 1241616149 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:22:51 ]
+ RunTime:0.003738s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:22:51 ]
+ RunTime:0.002578s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:22:51 ]
+ RunTime:0.002824s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:22:51 ]
+ RunTime:0.000299s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:22:51 ]
+ RunTime:0.000346s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107149 AND `ltime` <= 1241616171 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:22:51 ]
+ RunTime:0.001423s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107149 AND `data` <= 1241616171 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:23:13 ]
+ RunTime:0.002853s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:23:13 ]
+ RunTime:0.000461s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:23:17 ]
+ RunTime:0.003234s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:23:17 ]
+ RunTime:0.000468s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:23:20 ]
+ RunTime:0.003420s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:23:20 ]
+ RunTime:0.000587s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:24:25 ]
+ RunTime:0.002824s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:24:25 ]
+ RunTime:0.000926s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:29 ]
+ RunTime:0.003429s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:29 ]
+ RunTime:0.000362s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:32 ]
+ RunTime:0.003081s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:32 ]
+ RunTime:0.000315s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:35 ]
+ RunTime:0.002814s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:35 ]
+ RunTime:0.000321s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:37 ]
+ RunTime:0.003012s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:37 ]
+ RunTime:0.000326s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:39 ]
+ RunTime:0.007504s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:40 ]
+ RunTime:0.000778s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:25:42 ]
+ RunTime:0.003068s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:25:42 ]
+ RunTime:0.000322s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:27:25 ]
+ RunTime:0.002389s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:27:25 ]
+ RunTime:0.002641s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:27:25 ]
+ RunTime:0.002699s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:27:25 ]
+ RunTime:0.000268s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:27:25 ]
+ RunTime:0.000300s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107175 AND `ltime` <= 1241616445 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:27:25 ]
+ RunTime:0.001287s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107175 AND `data` <= 1241616445 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:29:41 ]
+ RunTime:0.003673s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:29:41 ]
+ RunTime:0.008985s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:29:41 ]
+ RunTime:0.003430s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:29:41 ]
+ RunTime:0.000300s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:29:41 ]
+ RunTime:0.000298s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:29:49 ]
+ RunTime:0.002609s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:29:49 ]
+ RunTime:0.002598s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:29:49 ]
+ RunTime:0.002535s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:29:49 ]
+ RunTime:0.000309s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:29:49 ]
+ RunTime:0.000291s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107151 AND `ltime` <= 1241616589 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:29:49 ]
+ RunTime:0.001239s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107151 AND `data` <= 1241616589 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:30:31 ]
+ RunTime:0.003931s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:30:31 ]
+ RunTime:0.000420s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:30:31 ]
+ RunTime:0.003262s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:30:31 ]
+ RunTime:0.000286s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:30:31 ]
+ RunTime:0.000301s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:32:56 ]
+ RunTime:0.002664s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:32:56 ]
+ RunTime:0.002357s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:32:56 ]
+ RunTime:0.007098s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:32:56 ]
+ RunTime:0.002871s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:32:56 ]
+ RunTime:0.000473s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107144 AND `ltime` <= 1241616776 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:32:56 ]
+ RunTime:0.001556s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107144 AND `data` <= 1241616776 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:32:58 ]
+ RunTime:0.003023s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:32:58 ]
+ RunTime:0.000408s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:32:58 ]
+ RunTime:0.000239s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:34:11 ]
+ RunTime:0.002444s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:34:11 ]
+ RunTime:0.002120s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:34:11 ]
+ RunTime:0.002351s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:34:11 ]
+ RunTime:0.000327s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:34:11 ]
+ RunTime:0.000266s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107189 AND `ltime` <= 1241616851 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:34:11 ]
+ RunTime:0.001098s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107189 AND `data` <= 1241616851 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:34:13 ]
+ RunTime:0.004012s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:34:13 ]
+ RunTime:0.000802s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:34:13 ]
+ RunTime:0.002528s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:34:13 ]
+ RunTime:0.000432s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:34:13 ]
+ RunTime:0.000227s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:34:19 ]
+ RunTime:0.002353s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:34:19 ]
+ RunTime:0.000623s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:34:33 ]
+ RunTime:0.003004s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:34:33 ]
+ RunTime:0.000831s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:36:08 ]
+ RunTime:0.003458s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:36:08 ]
+ RunTime:0.010429s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:36:08 ]
+ RunTime:0.004291s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:36:08 ]
+ RunTime:0.007812s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:36:08 ]
+ RunTime:0.001720s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107192 AND `ltime` <= 1241616968 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:36:08 ]
+ RunTime:0.001346s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107192 AND `data` <= 1241616968 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:36:09 ]
+ RunTime:0.004059s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:36:09 ]
+ RunTime:0.001758s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:36:09 ]
+ RunTime:0.003872s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:36:09 ]
+ RunTime:0.000543s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:36:09 ]
+ RunTime:0.000274s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:08 ]
+ RunTime:0.003217s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:08 ]
+ RunTime:0.003463s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:37:08 ]
+ RunTime:0.004209s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:37:08 ]
+ RunTime:0.000346s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:37:08 ]
+ RunTime:0.000298s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107192 AND `ltime` <= 1241617028 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:37:08 ]
+ RunTime:0.001178s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107192 AND `data` <= 1241617028 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:37:09 ]
+ RunTime:0.003132s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:09 ]
+ RunTime:0.000380s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:09 ]
+ RunTime:0.000237s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:19 ]
+ RunTime:0.002359s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:19 ]
+ RunTime:0.002121s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:37:19 ]
+ RunTime:0.003561s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:37:19 ]
+ RunTime:0.000279s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:37:19 ]
+ RunTime:0.000289s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107181 AND `ltime` <= 1241617039 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:37:19 ]
+ RunTime:0.001027s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107181 AND `data` <= 1241617039 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:37:20 ]
+ RunTime:0.041428s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:20 ]
+ RunTime:0.000309s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:20 ]
+ RunTime:0.000289s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:24 ]
+ RunTime:0.003279s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:24 ]
+ RunTime:0.003720s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:37:24 ]
+ RunTime:0.003634s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:37:24 ]
+ RunTime:0.000391s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:37:24 ]
+ RunTime:0.000377s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107176 AND `ltime` <= 1241617044 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:37:24 ]
+ RunTime:0.001690s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107176 AND `data` <= 1241617044 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:37:25 ]
+ RunTime:0.004475s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:25 ]
+ RunTime:0.000483s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:25 ]
+ RunTime:0.000234s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:47 ]
+ RunTime:0.003173s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:47 ]
+ RunTime:0.003119s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:37:47 ]
+ RunTime:0.003490s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:37:47 ]
+ RunTime:0.000311s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:37:47 ]
+ RunTime:0.000333s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107153 AND `ltime` <= 1241617067 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:37:47 ]
+ RunTime:0.001134s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107153 AND `data` <= 1241617067 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:37:48 ]
+ RunTime:0.003160s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:37:48 ]
+ RunTime:0.000355s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:37:48 ]
+ RunTime:0.000240s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:38:18 ]
+ RunTime:0.002817s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:38:18 ]
+ RunTime:0.002963s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:38:18 ]
+ RunTime:0.004314s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:38:18 ]
+ RunTime:0.000336s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:38:18 ]
+ RunTime:0.000306s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107182 AND `ltime` <= 1241617098 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:38:18 ]
+ RunTime:0.001347s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107182 AND `data` <= 1241617098 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:38:19 ]
+ RunTime:0.003978s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:38:19 ]
+ RunTime:0.000580s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:38:19 ]
+ RunTime:0.003449s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:38:19 ]
+ RunTime:0.000847s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:38:19 ]
+ RunTime:0.000472s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:40:20 ]
+ RunTime:0.002488s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:40:20 ]
+ RunTime:0.000318s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:40:20 ]
+ RunTime:0.003702s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:40:20 ]
+ RunTime:0.006003s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025220 AND `data` <= 1241617220 ) ORDER BY data DESC
+[ 09-05-06 21:40:21 ]
+ RunTime:0.002937s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:40:21 ]
+ RunTime:0.000344s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:40:22 ]
+ RunTime:0.002591s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:40:22 ]
+ RunTime:0.000298s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:40:22 ]
+ RunTime:0.002495s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:40:22 ]
+ RunTime:0.005224s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025222 AND `data` <= 1241617222 ) ORDER BY data DESC
+[ 09-05-06 21:40:33 ]
+ RunTime:0.002461s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:40:33 ]
+ RunTime:0.009388s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:40:33 ]
+ RunTime:0.003701s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:40:33 ]
+ RunTime:0.000872s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:40:33 ]
+ RunTime:0.000624s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107167 AND `ltime` <= 1241617233 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:40:33 ]
+ RunTime:0.001503s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107167 AND `data` <= 1241617233 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:40:34 ]
+ RunTime:0.002925s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:40:34 ]
+ RunTime:0.000422s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:40:35 ]
+ RunTime:0.002468s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:40:35 ]
+ RunTime:0.000314s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:40:35 ]
+ RunTime:0.002771s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:40:35 ]
+ RunTime:0.005190s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025235 AND `data` <= 1241617235 ) ORDER BY data DESC
+[ 09-05-06 21:40:42 ]
+ RunTime:0.002400s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:40:42 ]
+ RunTime:0.000309s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:40:42 ]
+ RunTime:0.003762s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:40:42 ]
+ RunTime:0.004268s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025242 AND `data` <= 1241617242 ) ORDER BY data DESC
+[ 09-05-06 21:41:35 ]
+ RunTime:0.002458s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:41:35 ]
+ RunTime:0.001169s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:41:35 ]
+ RunTime:0.002428s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:41:35 ]
+ RunTime:0.000300s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:41:35 ]
+ RunTime:0.002679s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:41:35 ]
+ RunTime:0.000317s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025295 AND `data` <= 1241617295 ) ORDER BY data DESC
+[ 09-05-06 21:41:36 ]
+ RunTime:0.002547s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:41:36 ]
+ RunTime:0.006519s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:41:36 ]
+ RunTime:0.005238s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:41:36 ]
+ RunTime:0.000392s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:41:36 ]
+ RunTime:0.000370s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107164 AND `ltime` <= 1241617296 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:41:36 ]
+ RunTime:0.000248s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107164 AND `data` <= 1241617296 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:41:54 ]
+ RunTime:0.002162s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:41:54 ]
+ RunTime:0.000391s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:41:55 ]
+ RunTime:0.003402s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:41:55 ]
+ RunTime:0.004087s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:41:55 ]
+ RunTime:0.003942s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:41:55 ]
+ RunTime:0.001164s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025315 AND `data` <= 1241617315 ) ORDER BY data DESC
+[ 09-05-06 21:41:56 ]
+ RunTime:0.002288s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:41:56 ]
+ RunTime:0.000349s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:41:57 ]
+ RunTime:0.003216s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:41:57 ]
+ RunTime:0.003330s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:41:58 ]
+ RunTime:0.002466s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:41:58 ]
+ RunTime:0.000938s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:41:58 ]
+ RunTime:0.003376s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:41:58 ]
+ RunTime:0.000336s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025318 AND `data` <= 1241617318 ) ORDER BY data DESC
+[ 09-05-06 21:43:09 ]
+ RunTime:0.002341s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:43:09 ]
+ RunTime:0.000397s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:43:34 ]
+ RunTime:0.003087s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:43:34 ]
+ RunTime:0.000551s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:44:07 ]
+ RunTime:0.049012s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:44:07 ]
+ RunTime:0.000293s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:44:31 ]
+ RunTime:0.003268s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:44:31 ]
+ RunTime:0.000304s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:44:40 ]
+ RunTime:0.004086s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:44:40 ]
+ RunTime:0.000530s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:44:44 ]
+ RunTime:0.003119s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:44:44 ]
+ RunTime:0.000351s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:45:14 ]
+ RunTime:0.002237s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:45:14 ]
+ RunTime:0.000457s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:45:20 ]
+ RunTime:0.002642s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:45:20 ]
+ RunTime:0.000314s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:46:43 ]
+ RunTime:0.002747s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:46:43 ]
+ RunTime:0.002494s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 21:46:43 ]
+ RunTime:0.002970s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:46:43 ]
+ RunTime:0.000293s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 21:46:43 ]
+ RunTime:0.000288s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107157 AND `ltime` <= 1241617603 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 21:46:43 ]
+ RunTime:0.000181s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107157 AND `data` <= 1241617603 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 21:46:44 ]
+ RunTime:0.003294s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:46:44 ]
+ RunTime:0.000618s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:46:45 ]
+ RunTime:0.003319s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:46:45 ]
+ RunTime:0.000402s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:46:46 ]
+ RunTime:0.010261s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:46:46 ]
+ RunTime:0.000550s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025606 AND `data` <= 1241617606 ) ORDER BY data DESC
+[ 09-05-06 21:46:47 ]
+ RunTime:0.002658s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:46:47 ]
+ RunTime:0.000378s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:46:47 ]
+ RunTime:0.002468s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:46:47 ]
+ RunTime:0.000344s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025607 AND `data` <= 1241617607 ) ORDER BY data DESC
+[ 09-05-06 21:46:47 ]
+ RunTime:0.007441s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:46:47 ]
+ RunTime:0.001598s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:46:55 ]
+ RunTime:0.003302s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:46:55 ]
+ RunTime:0.000869s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:46:56 ]
+ RunTime:0.002793s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:46:56 ]
+ RunTime:0.004377s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:46:56 ]
+ RunTime:0.003010s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:46:56 ]
+ RunTime:0.000330s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025616 AND `data` <= 1241617616 ) ORDER BY data DESC
+[ 09-05-06 21:47:35 ]
+ RunTime:0.003368s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:47:35 ]
+ RunTime:0.001394s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:47:40 ]
+ RunTime:0.002739s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:47:40 ]
+ RunTime:0.000542s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:47:42 ]
+ RunTime:0.004076s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:47:42 ]
+ RunTime:0.000497s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:47:42 ]
+ RunTime:0.005415s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:47:42 ]
+ RunTime:0.000438s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025662 AND `data` <= 1241617662 ) ORDER BY data DESC
+[ 09-05-06 21:47:53 ]
+ RunTime:0.002372s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:47:53 ]
+ RunTime:0.001324s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:47:53 ]
+ RunTime:0.002860s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:47:53 ]
+ RunTime:0.000310s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025673 AND `data` <= 1241617673 ) ORDER BY data DESC
+[ 09-05-06 21:48:15 ]
+ RunTime:0.002831s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:48:15 ]
+ RunTime:0.000326s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:48:15 ]
+ RunTime:0.003016s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:48:15 ]
+ RunTime:0.000478s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025695 AND `data` <= 1241617695 ) ORDER BY data DESC
+[ 09-05-06 21:48:20 ]
+ RunTime:0.003672s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:48:20 ]
+ RunTime:0.000435s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:48:20 ]
+ RunTime:0.005278s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:48:20 ]
+ RunTime:0.000513s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025700 AND `data` <= 1241617700 ) ORDER BY data DESC
+[ 09-05-06 21:50:38 ]
+ RunTime:0.002594s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:50:38 ]
+ RunTime:0.000316s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:50:38 ]
+ RunTime:0.002543s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:50:38 ]
+ RunTime:0.000293s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025838 AND `data` <= 1241617838 ) ORDER BY data DESC
+[ 09-05-06 21:51:11 ]
+ RunTime:0.002536s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 21:51:11 ]
+ RunTime:0.000540s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 21:51:11 ]
+ RunTime:0.002476s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 21:51:11 ]
+ RunTime:0.000584s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239025871 AND `data` <= 1241617871 ) ORDER BY data DESC
+[ 09-05-06 21:53:12 ]
+ RunTime:0.004250s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:53:12 ]
+ RunTime:0.001160s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:53:13 ]
+ RunTime:0.002803s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:53:13 ]
+ RunTime:0.000400s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:55:41 ]
+ RunTime:0.003821s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:55:41 ]
+ RunTime:0.000323s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 21:55:46 ]
+ RunTime:0.002722s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 21:55:46 ]
+ RunTime:0.002144s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:33:39 ]
+ RunTime:0.036792s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:33:39 ]
+ RunTime:0.000388s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:33:52 ]
+ RunTime:0.002857s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:33:52 ]
+ RunTime:0.000325s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:33:56 ]
+ RunTime:0.040078s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:33:56 ]
+ RunTime:0.017267s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 22:33:56 ]
+ RunTime:0.012898s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:33:56 ]
+ RunTime:0.000398s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 22:33:56 ]
+ RunTime:0.000398s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107144 AND `ltime` <= 1241620436 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 22:33:56 ]
+ RunTime:0.000254s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107144 AND `data` <= 1241620436 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 22:34:00 ]
+ RunTime:0.002663s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:34:00 ]
+ RunTime:0.001207s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 22:34:00 ]
+ RunTime:0.000292s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 22:34:02 ]
+ RunTime:0.003526s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:34:02 ]
+ RunTime:0.007560s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 22:34:02 ]
+ RunTime:0.002426s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:34:02 ]
+ RunTime:0.004626s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 22:34:02 ]
+ RunTime:0.000335s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107198 AND `ltime` <= 1241620442 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 22:34:02 ]
+ RunTime:0.000404s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107198 AND `data` <= 1241620442 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 22:39:38 ]
+ RunTime:0.002723s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:39:38 ]
+ RunTime:0.000305s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 22:39:38 ]
+ RunTime:0.002330s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:39:38 ]
+ RunTime:0.000316s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239028778 AND `data` <= 1241620778 ) ORDER BY data DESC
+[ 09-05-06 22:39:41 ]
+ RunTime:0.002199s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:39:41 ]
+ RunTime:0.000939s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:39:42 ]
+ RunTime:0.004091s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:39:42 ]
+ RunTime:0.002947s SQL = SHOW COLUMNS FROM hakucms_state
+[ 09-05-06 22:39:42 ]
+ RunTime:0.003097s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:39:42 ]
+ RunTime:0.000335s SQL = SELECT * FROM hakucms_user
+[ 09-05-06 22:39:42 ]
+ RunTime:0.000329s SQL = SELECT * FROM hakucms_state WHERE ( `ltime` >= 1241107158 AND `ltime` <= 1241620782 ) AND ( `user` = 'princehaku' )
+[ 09-05-06 22:39:42 ]
+ RunTime:0.000267s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1241107158 AND `data` <= 1241620782 ) AND ( `writer` = 'princehaku' )
+[ 09-05-06 22:47:11 ]
+ RunTime:0.002714s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:47:11 ]
+ RunTime:0.001087s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:47:12 ]
+ RunTime:0.002754s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:47:12 ]
+ RunTime:0.000547s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 22:47:12 ]
+ RunTime:0.003015s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:47:12 ]
+ RunTime:0.001180s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239029232 AND `data` <= 1241621232 ) ORDER BY data DESC
+[ 09-05-06 22:47:13 ]
+ RunTime:0.002507s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:47:13 ]
+ RunTime:0.000407s SQL = SELECT * FROM hakucms_category
+[ 09-05-06 22:47:18 ]
+ RunTime:0.003476s SQL = SHOW COLUMNS FROM hakucms_user
+[ 09-05-06 22:47:18 ]
+ RunTime:0.000414s SQL = SELECT * FROM hakucms_user WHERE ( `id` = '1' )
+[ 09-05-06 22:47:18 ]
+ RunTime:0.003149s SQL = SHOW COLUMNS FROM hakucms_document
+[ 09-05-06 22:47:18 ]
+ RunTime:0.000370s SQL = SELECT * FROM hakucms_document WHERE ( `data` >= 1239029238 AND `data` <= 1241621238 ) ORDER BY data DESC
+[ 09-05-06 22:47:20 ]
+ RunTime:0.002442s SQL = SHOW COLUMNS FROM hakucms_category
+[ 09-05-06 22:47:20 ]
+ RunTime:0.000535s SQL = SELECT * FROM hakucms_category

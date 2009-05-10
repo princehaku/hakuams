@@ -1,0 +1,102 @@
+body
+{
+	margin: 0 auto;
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #616161;
+	text-align: justify
+}
+.wrapper
+{
+	height: auto;
+	text-align: center;
+	margin: 0 auto;
+	position: fixed;
+}
+/**************************** Header Section Starts ***************************/
+.header
+{
+	width: 1024px;
+	height: 146px;
+	background-repeat: no-repeat;
+
+}
+/**************************** Second Section Ends *****************************/
+
+/**************************** Menu Section Starts *****************************/
+.menu
+{
+	width: 1024px;
+	height: 44px;
+	background-image:url(../images/menu.jpg);
+	background-repeat: no-repeat;
+}
+
+.menu-text
+{
+font-family: verdana;
+font-size: 14px;
+color: #ffffff;
+padding: 12px 45px 10px 10px;
+float: left;
+font-stretch: condensed;
+cursor: pointer;
+}
+
+
+.title1
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #8f8383;
+	margin-top: 10px;
+	letter-spacing: 0.1em;
+	vertical-align: middle;
+}
+
+
+
+hr{
+  background-color: #00deff;
+  width: 200px;
+  color: #00deff;
+  border: solid 1px #00deff;
+
+}
+a.nav:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.nav:visited {color: #ffffff; text-decoration: none; }
+a.nav:hover {color: #ffff99; text-decoration: underline; }
+a.nav:active {color:#ffffff; }
+
+a.link2{
+	
+	width:60px; color:#FFF; margin:0px 10px; background-color: #F00;
+	}
+a.link2:link {
+	color: #ffffff;
+	text-decoration: none;
+	background-color: #F00;
+}
+a.link2:hover {color:#FFF;text-decoration:underline; }
+a.link2:active {color:#FFF; }
+a.link2:visited {color:#FFF; }
+a.link1{
+	
+	width:60px; color:#FFF; margin:0px 10px;
+	}
+a.link1:link {
+	color: #ffffff;
+	text-decoration: none;
+}
+a.link1:hover {color:#FFF;text-decoration:underline; }
+a.link1:active {color:#FFF; }
+a.link1:visited {color:#FFF; }
+
+
+/**************************** General Section Ends ****************************/
+

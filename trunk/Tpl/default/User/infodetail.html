@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>文章管理系统</title>
+<script language='JavaScript' src='{$pub}/Js/main.js'></script>
+<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/mootools.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/Ajax/ThinkAjax.js'></script>
+<script language='JavaScript' src='{$pub}/Js/Form/CheckForm.js'></script>  
+<script language='JavaScript' src='{$pub}/Js/chkuser.js'></script>  
+</head>
+
+<body bgcolor="#99CCCC">
+<form action="__APP__/User/set" method="post" id="reg">
+  	  <h2>资料详细</h2>
+	  <p>
+      <div align="center"><div id="chkpwd2" style="color:#F00"></div>
+	    *姓名
+	    <input name="name" type="text" id="name" size="10" maxlength="10" value="{$name}"/>
+	    <br />
+	    <div id="chkname" style="color:#F00">&nbsp;</div>
+	    <div id="chkid" style="color:#F00"></div>
+	    qq号码
+	    <input name="qq" type="text" id="qq" size="22" maxlength="12" value="{$qq}"/>
+        <br />
+        <div id="chkqq" style="color:#F00">&nbsp;</div>
+        <div id="chkhobby" style="color:#F00"></div>
+      email
+      <input name="email" type="text" id="email" size="23" maxlength="40" value="{$email}"/>
+      <br />
+      <div id="chkemail" style="color:#F00">&nbsp;</div>
+{$title}
+<table width="200">
+<volist name="cate" id="vo">
+  <tr>
+    <td><label>
+      <input type="checkbox" name="" value="{$vo.id}" id="cat{$vo.cat}" {$vo.sck}/>
+      {$vo.name}</label></td>
+  </tr>
+  </volist>
+ <input id="alcat" name="alcat" type="hidden" value="" />
+</table>
+<br />
+ <input type="button" name="button" id="button" value="更新"  onclick="upinfo();"/>
+      <a href="__APP__/User/showall">返回</a>
+      </div>
+	</form>
+	
+</body>
+</html>

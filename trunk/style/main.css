@@ -1,0 +1,17 @@
+body
+{
+	margin: 0 auto;
+	font-family: Tahoma;
+	font-size: 8pt;
+	font-weight: normal;
+	color: #616161;
+	text-align: justify
+}
+.title1
+{
+	font-family: Tahoma;
+	font-size: 10pt;
+	font-weight: normal;
+	color: #8f8383;
+	margin-top: 10px;
+}
