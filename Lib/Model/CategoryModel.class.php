@@ -3,7 +3,7 @@
 class CategoryModel extends Model
 {
 
-	protected $trueTableName = 'hakucms_category';
+	//protected $trueTableName = 'category';
 
 }
 

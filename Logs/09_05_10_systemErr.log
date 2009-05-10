@@ -3258,3 +3258,865 @@
 [09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
 [09-05-10 11:56:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
 
+[ 09-05-10 12:25:11 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:25:05]  () Action->__call(非法操作images)
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:25:23 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:25:05]  () Action->__call(非法操作images)
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 12:25:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:30:17 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:30:05]  () Action->__call(非法操作images)
+[09-05-10 12:30:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 12:30:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 12:30:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:38:56 ]
+
+错误信息：[ job Article index ]Table 'jobguidence.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM user
+错误页面：/hakuams/hakuams/index.php/Article/index
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(Table 'jobguidence.user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM user)
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) DbMysql->getFields(SHOW COLUMNS FROM user)
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->flush(user)
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (3) Model->__construct()
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\ArticleAction.class.php (77) D()
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) ArticleAction->index()
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec(User)
+[09-05-10 12:38:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:39:09 ]
+
+错误信息：[ job Article index ]Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user
+错误页面：/hakuams/hakuams/index.php/Article/index
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) DbMysql->getFields(SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->flush(hakuams_user)
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (3) Model->__construct()
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\ArticleAction.class.php (77) D()
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) ArticleAction->index()
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec(User)
+[09-05-10 12:39:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:40:12 ]
+
+错误信息：[ job Article index ]Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user
+错误页面：/hakuams/hakuams/index.php/Article/index
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) DbMysql->getFields(SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->flush(hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (3) Model->__construct()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\ArticleAction.class.php (77) D()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) ArticleAction->index()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec(User)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 12:40:13 ]
+
+错误信息：[ job Article index ]Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user
+错误页面：/hakuams/hakuams/index.php/Article/index
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Driver\DbMysql.class.php (355) DbMysql->_query(Table 'jobguidence.hakuams_user' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) DbMysql->getFields(SHOW COLUMNS FROM hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->flush(hakuams_user)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_checkTableInfo()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (3) Model->__construct()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\ArticleAction.class.php (77) D()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) ArticleAction->index()
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec(User)
+[09-05-10 12:40:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 12:40:44 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:40:51 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:40:53 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:40:54 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 12:40:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:40:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:40:54 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:40:56 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+[ 09-05-10 12:41:03 ]
+
+错误信息：[ job Category modify ]Table 'jobguidence.category' doesn't exist
+ [ SQL语句 ] : UPDATE `category` SET `name` ='d' WHERE `id` =107
+错误页面：/hakuams/hakuams/index.php/Category/modify
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.category' doesn't exist
+ [ SQL语句 ] : UPDATE `category` SET `name` ='d' WHERE `id` =107)
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(UPDATE `category` SET `name` ='d' WHERE `id` =107, , , )
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\CategoryAction.class.php (99) Model->query(UPDATE `category` SET `name` ='d' WHERE `id` =107, , )
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) CategoryAction->modify(UPDATE `category` SET `name` ='d' WHERE `id` =107)
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 12:41:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 12:43:06 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 12:43:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:43:10 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 12:43:10 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:10 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:10 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 12:43:22 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 12:43:28 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 12:43:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:44:26 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:45:35 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:45:35 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:45:35 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:45:36 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 69 行.
+
+[ 09-05-10 12:49:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:49:20 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:49:31 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:49:31 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:51:16 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:51:16 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:52:06 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:52:06 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:52:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:52:29 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:52:46 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:52:46 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:52:46 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:52:47 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:52:47 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:53:09 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:53:09 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:53:29 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:53:29 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:53:29 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:53:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:53:29 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:53:37 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:53:37 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:53:52 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:53:52 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:54:15 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:54:15 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:54:15 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:54:16 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:54:16 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:54:30 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:54:30 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:54:36 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:54:36 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:55:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:55:20 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:55:38 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:55:38 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:55:55 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:55:55 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:56:05 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 12:56:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:56:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:56:25 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:56:26 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:56:26 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:57:01 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:57:01 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:57:01 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 12:57:02 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:57:02 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:57:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:57:07 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:58:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:58:20 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:58:37 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:58:37 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 12:58:53 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 12:58:53 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:09:56 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 13:10:01 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 13:10:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:10:07 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:11:25 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:11:25 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:11:27 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:11:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:11:29 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:11:59 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 13:12:31 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:12:31 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:12:31 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:12:39 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:12:40 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:12:46 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:12:57 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:12:57 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:12:58 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:12:58 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:12:59 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:12:59 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 13:13:05 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 13:13:06 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:13:05]  () Action->__call(非法操作images)
+[09-05-10 13:13:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:13:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:13:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:13:58 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:13:58 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:14:12 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:14:12 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:14:29 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:14:29 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:15:12 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:15:12 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:15:30 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:15:31 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:15:31 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+[ 09-05-10 13:15:56 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:15:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:00 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:02 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:03 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:03 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:04 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:15 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:16:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:16:20 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+[ 09-05-10 13:16:25 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:36 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+[ 09-05-10 13:16:37 ]
+
+错误信息：[ job Index index ]Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 
+错误页面：/hakuams/hakuams/index.php
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\ThinkPHP\Lib\Think\Db\Db.class.php (925) DbMysql->_query(Table 'jobguidence.hakucms_document' doesn't exist
+ [ SQL语句 ] : SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Db->query()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (9) Model->_query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Lib\Action\IndexAction.class.php (109) Model->query(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 , , )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) IndexAction->index(SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 )
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:16:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:16:39 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 13:17:34 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:17:34 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:17:58 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:17:58 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:18:18 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:18:18 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:19:43 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:19:43 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:20:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:20:07 ]
+注意：[8] Undefined variable: total ArticleAction.class.php 第 114 行.
+
+[ 09-05-10 13:21:05 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:21:06 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:21:21 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:21:22 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:23:34 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:34 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:34 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:35 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:23:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:56 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:56 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:23:57 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:24:22 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:24:22 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:24:22 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:24:23 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:25:03 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:25:15 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:25:51 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.

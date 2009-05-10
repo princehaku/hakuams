@@ -6,13 +6,19 @@
 <script language='JavaScript' src='<?php echo ($pub); ?>/Js/prototype.js'></script>  
 <script language='JavaScript'>
 //删除文章的确认
+var total='<?php echo ($total); ?>';
 function delarticle(id)
 {
+	alert (total);
 	url="/hakuams/index.php/Article/del/id/"+id;
 	if(confirm("确认删除吗?")==true){
 		//alert(url);
 		self.location=url;
 		}
+	}
+function nextpg()
+{
+	
 	
 	}
 </script>
@@ -50,6 +56,7 @@ body {
 }
 a:link {
 	color: #09F;
+	text-decoration:none;
 }
 a:visited {
 	color: #09F;
@@ -57,6 +64,17 @@ a:visited {
 a:active {
 	color: #0CF;
 }
+a:hover {
+	text-decoration:underline;
+	color:#6F0;
+}
+.STYLE19 div:hover {
+	background-color:#0CF;
+	}
+.STYLE19 a:hover {
+	color: #333;
+	text-decoration:none;
+	}
 -->
 </style>
 
@@ -90,7 +108,7 @@ a:active {
     </table></td>
   </tr>
   <tr>
-    <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" onmouseover="changeto()"  onmouseout="changeback()">
+    <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" >
       <tr>
         <td width="5%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
           <input type="checkbox" name="checkbox" id="checkbox" />
@@ -107,9 +125,9 @@ a:active {
         <td height="20" bgcolor="#FFFFFF"><div align="center">
           <input type="checkbox" name="article<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" id="checkbox<?php echo (is_array($vo)?$vo["oid"]:$vo->oid); ?>" />
         </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19"><?php echo (is_array($vo)?$vo["title"]:$vo->title); ?></span></div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19"><a title="<?php echo (is_array($vo)?$vo["title"]:$vo->title); ?>"><?php echo (is_array($vo)?$vo["title"]:$vo->title); ?></a></span></div></td>
         <td bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["through"]:$vo->through); ?><a href="/hakuams/index.php/Article/show/id/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" target="_blank">查看</a>|<a href="/hakuams/index.php/Article/editarticle/articleid/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>">编辑</a>|<a href="#" onclick="delarticle(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>);">删除</a></div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center" class="STYLE19"><?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?> </div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center" class="STYLE19"><a class="null" title="<?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?>"><?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?> </a></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["writer"]:$vo->writer); ?></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><strong><?php echo (timeto(is_array($vo)?$vo["data"]:$vo->data)); ?></strong></div></td>
