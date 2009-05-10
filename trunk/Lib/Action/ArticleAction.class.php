@@ -19,6 +19,14 @@ by
 	uparticle()===更新文章
 */
 class ArticleAction extends Action{
+	public function common()
+	{	
+		//授权模块
+		if ($_SESSION['admin']==""){goto(C("PUBURL"),0);die();}
+		//导入url
+		//+++++++++++++++++++++++++++++++++++++++++
+        $this->assign('pub',C('PUBURL'));
+	}
 	private function savepic()
 	{
 		import("ORG.Net.UploadFile");
@@ -53,14 +61,7 @@ class ArticleAction extends Action{
 			}
 		
 	}
-	public function common()
-	{	
-		//授权模块
-		if ($_SESSION['admin']==""){goto(C("PUBURL"),0);die();}
-		//导入url
-		//+++++++++++++++++++++++++++++++++++++++++
-        $this->assign('pub',C('PUBURL'));
-	}
+	
 	//全部文章显示
 	public function index(){
 		
@@ -109,12 +110,14 @@ class ArticleAction extends Action{
 				}
 		
 		$this->assign('list',$result);
-		
+		//js参数替换~~~~~~~~~~
+		$this->assign('total',count($result));
+		//js参数替换完成
 		$this->display('show');
 		
 		
     }
-	
+	/*
 	//未授权的文章的显示
 	public function showunexam(){
 		//得到页码
@@ -154,19 +157,21 @@ class ArticleAction extends Action{
 		$this->display('show');
 		
     }
+	
+	*/
 	public function show()
 	{
 		$doc=D("Document");
 		
 				
-		$result=$doc->where(array('id'=>$_GET['id']))->limit(1)->findall();
+		$result=$doc->where(array('id'=>uh($_GET['id'])))->limit(1)->findall();
 		//print_r($result);
 
 		$this->assign('doc',$result);
 
         $this->assign('pub',C('PUBURL'));
 		
-		$this->display('at');
+		$this->display('preview');
 		
 	}
 	//取消文章授权
@@ -237,12 +242,14 @@ class ArticleAction extends Action{
 		
 		if($_SESSION['admin']==1){
 			
-			$doc->query("delete from `hakucms_document` where `id`=$id Limit 1");
+			$doc->query("delete from `".C('DB_PREFIX')
+."document` where `id`=$id Limit 1");
 		}
 		else
 		{
 			//防止注入式攻击
-			$doc->query("delete from `hakucms_document` where `id`=$id AND `writer`='$usr' Limit 1");
+			$doc->query("delete from `".C('DB_PREFIX')
+."document` where `id`=$id AND `writer`='$usr' Limit 1");
 		}
 		$this->jumpUrl=C('PUBURL')."/index.php/Article/index";
 		

@@ -17,7 +17,8 @@ class IndexAction extends Action{
 
 		$cate=D("Category");
 
-		$result=$news->query("SELECT * FROM hakucms_document WHERE ( `exam` = 1 ) ORDER BY data DESC LIMIT 0,4");
+		$result=$news->query("SELECT * FROM ".C('DB_PREFIX')
+."document WHERE ( `exam` = 1 ) ORDER BY data DESC LIMIT 0,4");
 		//更具得到的cateid去查询目录的名字
 		foreach($result as $i=>$j)
 		{
@@ -28,7 +29,8 @@ class IndexAction extends Action{
 			
 		$this->assign('lastest1',$result);
 
-		$result=$news->query("SELECT * FROM hakucms_document WHERE ( `exam` = 1 ) ORDER BY data DESC LIMIT 4,4");
+		$result=$news->query("SELECT * FROM ".C('DB_PREFIX')
+."document WHERE ( `exam` = 1 ) ORDER BY data DESC LIMIT 4,4");
 		//更具得到的cateid去查询目录的名字
 		foreach($result as $i=>$j)
 		{

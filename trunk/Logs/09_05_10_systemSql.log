@@ -1455,3 +1455,599 @@
  RunTime:0.002510s SQL = SHOW COLUMNS FROM hakucms_document
 [ 09-05-10 11:52:45 ]
  RunTime:0.002361s SQL = SELECT * FROM hakucms_document ORDER BY data DESC LIMIT 0,18 
+[ 09-05-10 12:40:44 ]
+ RunTime:0.003511s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:40:44 ]
+ RunTime:0.000434s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:40:44 ]
+ RunTime:0.002781s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:44 ]
+ RunTime:0.002664s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:40:48 ]
+ RunTime:0.002356s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:48 ]
+ RunTime:0.000682s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '185' ) LIMIT 1 
+[ 09-05-10 12:40:48 ]
+ RunTime:0.002892s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:48 ]
+ RunTime:0.000570s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:40:48 ]
+ RunTime:0.002657s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:48 ]
+ RunTime:0.000371s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:40:48 ]
+ RunTime:0.002835s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:48 ]
+ RunTime:0.000514s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:40:51 ]
+ RunTime:0.002405s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:40:51 ]
+ RunTime:0.000352s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:40:51 ]
+ RunTime:0.002228s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:51 ]
+ RunTime:0.005337s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:40:53 ]
+ RunTime:0.002704s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:40:53 ]
+ RunTime:0.000410s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:40:53 ]
+ RunTime:0.003548s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:53 ]
+ RunTime:0.004929s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:40:54 ]
+ RunTime:0.004360s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:40:54 ]
+ RunTime:0.000772s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:40:54 ]
+ RunTime:0.004120s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:54 ]
+ RunTime:0.000842s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '181' )
+[ 09-05-10 12:40:54 ]
+ RunTime:0.003232s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:40:54 ]
+ RunTime:0.000788s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:40:56 ]
+ RunTime:0.003743s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:40:56 ]
+ RunTime:0.000505s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:40:56 ]
+ RunTime:0.003052s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:40:56 ]
+ RunTime:0.005229s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:41:00 ]
+ RunTime:0.003254s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:41:00 ]
+ RunTime:0.000804s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:06 ]
+ RunTime:0.002684s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:06 ]
+ RunTime:0.000485s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:07 ]
+ RunTime:0.004150s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:43:07 ]
+ RunTime:0.000649s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:43:07 ]
+ RunTime:0.004322s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:07 ]
+ RunTime:0.004989s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:43:08 ]
+ RunTime:0.002230s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:08 ]
+ RunTime:0.000464s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '181' ) LIMIT 1 
+[ 09-05-10 12:43:09 ]
+ RunTime:0.003118s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:09 ]
+ RunTime:0.000285s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:43:09 ]
+ RunTime:0.002367s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:09 ]
+ RunTime:0.000470s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:43:09 ]
+ RunTime:0.003042s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:09 ]
+ RunTime:0.000285s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 12:43:10 ]
+ RunTime:0.003951s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:43:10 ]
+ RunTime:0.000841s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:43:10 ]
+ RunTime:0.004003s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:10 ]
+ RunTime:0.000929s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '181' )
+[ 09-05-10 12:43:10 ]
+ RunTime:0.005534s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:10 ]
+ RunTime:0.005091s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:12 ]
+ RunTime:0.005447s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:12 ]
+ RunTime:0.000894s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:16 ]
+ RunTime:0.002064s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:16 ]
+ RunTime:0.000445s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:21 ]
+ RunTime:0.002071s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:21 ]
+ RunTime:0.000427s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:22 ]
+ RunTime:0.002089s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:22 ]
+ RunTime:0.000395s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:28 ]
+ RunTime:0.003020s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 12:43:28 ]
+ RunTime:0.000449s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 12:43:29 ]
+ RunTime:0.003502s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:43:29 ]
+ RunTime:0.000432s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:43:29 ]
+ RunTime:0.002440s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:43:29 ]
+ RunTime:0.002930s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:44:26 ]
+ RunTime:0.002215s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:44:26 ]
+ RunTime:0.000300s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:44:26 ]
+ RunTime:0.002262s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:44:26 ]
+ RunTime:0.002883s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:45:36 ]
+ RunTime:0.008705s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:45:36 ]
+ RunTime:0.001165s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:45:36 ]
+ RunTime:0.005147s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:45:36 ]
+ RunTime:0.005204s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:49:20 ]
+ RunTime:0.005183s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:49:20 ]
+ RunTime:0.000580s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:49:20 ]
+ RunTime:0.004906s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:49:20 ]
+ RunTime:0.003649s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:49:31 ]
+ RunTime:0.004503s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:49:31 ]
+ RunTime:0.000613s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:49:31 ]
+ RunTime:0.003396s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:49:31 ]
+ RunTime:0.004612s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:51:16 ]
+ RunTime:0.002355s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:51:16 ]
+ RunTime:0.000300s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:51:16 ]
+ RunTime:0.002355s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:51:16 ]
+ RunTime:0.005076s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:52:06 ]
+ RunTime:0.006261s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:52:06 ]
+ RunTime:0.001262s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:52:06 ]
+ RunTime:0.005983s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:52:06 ]
+ RunTime:0.011533s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:52:29 ]
+ RunTime:0.003624s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:52:29 ]
+ RunTime:0.000369s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:52:29 ]
+ RunTime:0.002290s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:52:29 ]
+ RunTime:0.002617s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:52:47 ]
+ RunTime:0.003773s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:52:47 ]
+ RunTime:0.000579s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:52:47 ]
+ RunTime:0.003952s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:52:47 ]
+ RunTime:0.009729s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:53:09 ]
+ RunTime:0.002917s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:53:09 ]
+ RunTime:0.000347s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:53:09 ]
+ RunTime:0.002761s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:53:09 ]
+ RunTime:0.003425s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:53:29 ]
+ RunTime:0.002559s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:53:29 ]
+ RunTime:0.000599s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:53:29 ]
+ RunTime:0.002359s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:53:29 ]
+ RunTime:0.004800s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:53:37 ]
+ RunTime:0.002270s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:53:37 ]
+ RunTime:0.000398s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:53:37 ]
+ RunTime:0.002374s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:53:37 ]
+ RunTime:0.003928s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:53:52 ]
+ RunTime:0.002311s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:53:52 ]
+ RunTime:0.000406s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:53:52 ]
+ RunTime:0.002307s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:53:52 ]
+ RunTime:0.004905s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:54:16 ]
+ RunTime:0.002885s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:54:16 ]
+ RunTime:0.000380s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:54:16 ]
+ RunTime:0.004730s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:54:16 ]
+ RunTime:0.005708s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:54:30 ]
+ RunTime:0.002805s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:54:30 ]
+ RunTime:0.000560s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:54:30 ]
+ RunTime:0.003370s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:54:30 ]
+ RunTime:0.002973s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:54:36 ]
+ RunTime:0.004068s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:54:36 ]
+ RunTime:0.001181s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:54:36 ]
+ RunTime:0.003677s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:54:36 ]
+ RunTime:0.004267s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:55:20 ]
+ RunTime:0.002807s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:55:20 ]
+ RunTime:0.000387s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:55:20 ]
+ RunTime:0.002614s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:55:20 ]
+ RunTime:0.002677s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:55:38 ]
+ RunTime:0.002557s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:55:38 ]
+ RunTime:0.000551s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:55:38 ]
+ RunTime:0.002308s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:55:38 ]
+ RunTime:0.002540s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:55:55 ]
+ RunTime:0.002609s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:55:55 ]
+ RunTime:0.000391s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:55:55 ]
+ RunTime:0.002381s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:55:55 ]
+ RunTime:0.002632s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:56:26 ]
+ RunTime:0.003776s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:56:26 ]
+ RunTime:0.000645s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:56:26 ]
+ RunTime:0.003305s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:56:26 ]
+ RunTime:0.002825s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:57:02 ]
+ RunTime:0.002584s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:57:02 ]
+ RunTime:0.000378s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:57:02 ]
+ RunTime:0.002459s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:57:02 ]
+ RunTime:0.002886s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:57:07 ]
+ RunTime:0.005244s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:57:07 ]
+ RunTime:0.000461s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:57:07 ]
+ RunTime:0.003587s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:57:07 ]
+ RunTime:0.006169s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:58:20 ]
+ RunTime:0.004310s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:58:20 ]
+ RunTime:0.002639s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:58:20 ]
+ RunTime:0.006183s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:58:20 ]
+ RunTime:0.005648s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:58:37 ]
+ RunTime:0.004032s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:58:37 ]
+ RunTime:0.000565s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:58:37 ]
+ RunTime:0.003935s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:58:37 ]
+ RunTime:0.007706s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 12:58:53 ]
+ RunTime:0.002709s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 12:58:53 ]
+ RunTime:0.000337s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 12:58:53 ]
+ RunTime:0.002274s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 12:58:53 ]
+ RunTime:0.002639s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:01:36 ]
+ RunTime:0.002837s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:01:36 ]
+ RunTime:0.000815s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '184' ) LIMIT 1 
+[ 09-05-10 13:01:36 ]
+ RunTime:0.003212s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:01:36 ]
+ RunTime:0.000345s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 13:01:37 ]
+ RunTime:0.002245s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:01:37 ]
+ RunTime:0.000319s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 13:01:37 ]
+ RunTime:0.002433s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:01:37 ]
+ RunTime:0.000354s SQL = SELECT * FROM hakuams_document WHERE ( `id` = '2.files' ) LIMIT 1 
+[ 09-05-10 13:10:07 ]
+ RunTime:0.005719s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:10:07 ]
+ RunTime:0.000902s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:10:07 ]
+ RunTime:0.005843s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:10:07 ]
+ RunTime:0.011186s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:11:22 ]
+ RunTime:0.004871s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:11:22 ]
+ RunTime:0.000506s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:11:25 ]
+ RunTime:0.003670s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:11:25 ]
+ RunTime:0.000428s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:11:25 ]
+ RunTime:0.002472s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:11:25 ]
+ RunTime:0.003239s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:11:27 ]
+ RunTime:0.004572s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 13:11:27 ]
+ RunTime:0.000969s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 13:11:29 ]
+ RunTime:0.003213s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:11:29 ]
+ RunTime:0.000477s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:11:29 ]
+ RunTime:0.005121s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:11:29 ]
+ RunTime:0.004846s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:12:39 ]
+ RunTime:0.002487s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:12:39 ]
+ RunTime:0.000347s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:12:39 ]
+ RunTime:0.003425s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:12:40 ]
+ RunTime:0.003500s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:12:46 ]
+ RunTime:0.004434s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 13:12:46 ]
+ RunTime:0.000721s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 13:12:57 ]
+ RunTime:0.002361s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:12:57 ]
+ RunTime:0.000336s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:12:57 ]
+ RunTime:0.002459s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:12:57 ]
+ RunTime:0.002844s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:12:58 ]
+ RunTime:0.007023s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:12:58 ]
+ RunTime:0.000790s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:12:58 ]
+ RunTime:0.005517s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:12:58 ]
+ RunTime:0.027335s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:12:59 ]
+ RunTime:0.002545s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:12:59 ]
+ RunTime:0.000374s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:12:59 ]
+ RunTime:0.003112s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:12:59 ]
+ RunTime:0.003793s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:12:59 ]
+ RunTime:0.003945s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 13:12:59 ]
+ RunTime:0.000767s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 13:13:05 ]
+ RunTime:0.002730s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:13:05 ]
+ RunTime:0.002967s SQL = SHOW COLUMNS FROM hakuams_state
+[ 09-05-10 13:13:05 ]
+ RunTime:0.002735s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:13:05 ]
+ RunTime:0.000567s SQL = SELECT * FROM hakuams_user
+[ 09-05-10 13:13:05 ]
+ RunTime:0.053591s SQL = SELECT * FROM hakuams_state WHERE ( `ltime` >= 1241107195 AND `ltime` <= 1241932385 ) AND ( `user` = 'admin' )
+[ 09-05-10 13:13:05 ]
+ RunTime:0.000952s SQL = SELECT * FROM hakuams_document WHERE ( `data` >= 1241107195 AND `data` <= 1241932385 ) AND ( `writer` = 'admin' )
+[ 09-05-10 13:13:58 ]
+ RunTime:0.003209s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:13:58 ]
+ RunTime:0.000601s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:13:58 ]
+ RunTime:0.002550s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:13:58 ]
+ RunTime:0.002887s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:14:12 ]
+ RunTime:0.002409s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:14:12 ]
+ RunTime:0.000570s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:14:12 ]
+ RunTime:0.002390s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:14:12 ]
+ RunTime:0.002637s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:14:29 ]
+ RunTime:0.002211s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:14:29 ]
+ RunTime:0.000365s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:14:29 ]
+ RunTime:0.002651s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:14:29 ]
+ RunTime:0.002655s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:15:12 ]
+ RunTime:0.004994s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:15:12 ]
+ RunTime:0.000737s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:15:12 ]
+ RunTime:0.003771s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:15:12 ]
+ RunTime:0.003287s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:15:30 ]
+ RunTime:0.002623s SQL = SHOW COLUMNS FROM hakuams_category
+[ 09-05-10 13:15:30 ]
+ RunTime:0.000384s SQL = SELECT * FROM hakuams_category
+[ 09-05-10 13:15:31 ]
+ RunTime:0.004336s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:15:31 ]
+ RunTime:0.000416s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:15:31 ]
+ RunTime:0.003902s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:15:31 ]
+ RunTime:0.008049s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:16:20 ]
+ RunTime:0.003291s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:16:20 ]
+ RunTime:0.000576s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:16:20 ]
+ RunTime:0.004010s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:16:20 ]
+ RunTime:0.004097s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:17:34 ]
+ RunTime:0.003601s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:17:34 ]
+ RunTime:0.000431s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:17:34 ]
+ RunTime:0.004270s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:17:34 ]
+ RunTime:0.004035s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:17:58 ]
+ RunTime:0.004297s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:17:58 ]
+ RunTime:0.001827s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:17:58 ]
+ RunTime:0.006102s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:17:58 ]
+ RunTime:0.005271s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:18:18 ]
+ RunTime:0.003973s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:18:18 ]
+ RunTime:0.001945s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:18:18 ]
+ RunTime:0.004836s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:18:18 ]
+ RunTime:0.004943s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:19:43 ]
+ RunTime:0.002297s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:19:43 ]
+ RunTime:0.000292s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:19:43 ]
+ RunTime:0.002425s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:19:43 ]
+ RunTime:0.004606s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:20:07 ]
+ RunTime:0.002248s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:20:07 ]
+ RunTime:0.000320s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:20:07 ]
+ RunTime:0.002471s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:20:07 ]
+ RunTime:0.003171s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:21:05 ]
+ RunTime:0.002797s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:21:05 ]
+ RunTime:0.000363s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:21:05 ]
+ RunTime:0.002647s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:21:05 ]
+ RunTime:0.004255s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:21:06 ]
+ RunTime:0.004052s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:21:06 ]
+ RunTime:0.000427s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:21:06 ]
+ RunTime:0.004180s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:21:06 ]
+ RunTime:0.005678s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:21:21 ]
+ RunTime:0.003355s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:21:21 ]
+ RunTime:0.000872s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:21:21 ]
+ RunTime:0.004204s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:21:21 ]
+ RunTime:0.005200s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:21:22 ]
+ RunTime:0.003569s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:21:22 ]
+ RunTime:0.000826s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:21:22 ]
+ RunTime:0.003887s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:21:22 ]
+ RunTime:0.003622s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:23:35 ]
+ RunTime:0.003475s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:23:35 ]
+ RunTime:0.001588s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:23:35 ]
+ RunTime:0.003387s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:23:35 ]
+ RunTime:0.008104s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:23:57 ]
+ RunTime:0.002777s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:23:57 ]
+ RunTime:0.001179s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:23:57 ]
+ RunTime:0.003292s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:23:57 ]
+ RunTime:0.003242s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:24:23 ]
+ RunTime:0.005591s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:24:23 ]
+ RunTime:0.001042s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:24:23 ]
+ RunTime:0.008296s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:24:23 ]
+ RunTime:0.009726s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:25:03 ]
+ RunTime:0.005307s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:25:03 ]
+ RunTime:0.009943s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:25:03 ]
+ RunTime:0.005495s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:25:03 ]
+ RunTime:0.007760s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:25:15 ]
+ RunTime:0.008449s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:25:15 ]
+ RunTime:0.000845s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:25:15 ]
+ RunTime:0.004935s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:25:15 ]
+ RunTime:0.006202s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 
+[ 09-05-10 13:25:51 ]
+ RunTime:0.002394s SQL = SHOW COLUMNS FROM hakuams_user
+[ 09-05-10 13:25:51 ]
+ RunTime:0.000390s SQL = SELECT * FROM hakuams_user WHERE ( `id` = '7' )
+[ 09-05-10 13:25:51 ]
+ RunTime:0.004215s SQL = SHOW COLUMNS FROM hakuams_document
+[ 09-05-10 13:25:51 ]
+ RunTime:0.009178s SQL = SELECT * FROM hakuams_document ORDER BY data DESC LIMIT 0,17 

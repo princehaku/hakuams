@@ -1,11 +1,13 @@
 ﻿<?php
 
 $config=array(
-	'DEBUG_MODE'		    =>false,
+	'DEBUG_MODE'		    =>true,
 	'DB_TYPE'				=>'mysql',					
 	'DB_HOST'				=>'localhost',  
 	'DB_USER'				=>'root', 
 	'DB_PWD'				=>'zxcasdqwe', 
+	/*数据库前缀*/
+	'DB_PREFIX'         	=>'hakuams_',
 	'DB_PORT'				=>'3306', 
 	'DB_NAME'        	    =>'jobguidence',
 	/*用户注册的限定时间*/

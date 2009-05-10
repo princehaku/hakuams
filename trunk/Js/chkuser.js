@@ -16,7 +16,7 @@ function chkuser()
 	}
 	else{
 		$('chkuser').innerHTML ="&nbsp;";
-		ThinkAjax.send('/hakucms/index.php/User/checkname/name/'+$('username').value,a,com,'ajax');
+		ThinkAjax.send('/hakuams/index.php/User/checkname/name/'+$('username').value,a,com,'ajax');
 	}
 }
 	

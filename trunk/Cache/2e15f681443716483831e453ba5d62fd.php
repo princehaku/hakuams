@@ -18,8 +18,8 @@
 	  <p>
       <div align="center">
         <label>*原&nbsp;密&nbsp;码:</label>
-	    <input name="password" type="text" id="username" size="20" maxlength="40"/>
-	    <label><br />
+	    <input name="password" type="password" id="username" size="20" maxlength="40"/>
+      <label><br />
 	      <div id="chkuser" style="color:#F00">&nbsp;</div>
         &nbsp;*&nbsp;密&nbsp;&nbsp;&nbsp;&nbsp;码 
         </label>

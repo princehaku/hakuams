@@ -80,7 +80,7 @@ class CategoryAction extends Action{
 		
 		$cat= D('Category');
 		
-		$cat->query("DELETE FROM `hakucms_category` WHERE `hakucms_category`.`id` =$id LIMIT 1");
+		$cat->query("DELETE FROM `".C('DB_PREFIX')."category` WHERE `".C('DB_PREFIX')."category`.`id` =$id LIMIT 1");
 		
 		$this->success("删除成功！");
 		
@@ -96,11 +96,11 @@ class CategoryAction extends Action{
 		
 		$cat=D('Category');
 		
-		$cat->query("UPDATE `hakucms_category` SET `name` ='$newname' WHERE `id` =$id");
+		$cat->query("UPDATE `".C('DB_PREFIX')."category` SET `name` ='$newname' WHERE `id` =$id");
 		
 		$this->success("修改成功！");
 	}
-	
+	//得到子目录
 	public function getsub()
 	{
 		$cateid=$_GET['id'];
