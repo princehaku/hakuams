@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $config=array(
 	'DEBUG_MODE'		    =>true,
