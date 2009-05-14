@@ -66,10 +66,11 @@ class ArticleAction extends Action{
 	public function index(){
 		
 		$this->common();
-		//得到页码
-		$pgnum=uh($_GET["p"])*20;
 		//得到每页显示文章数
 		$pglit=C("ARTNUMS");
+		//得到页码
+		$pgnum=uh($_GET["p"])*$pglit;
+		
 		if($pgnum>$pglit){
 			
 			$this->error("参数错误");
@@ -89,7 +90,9 @@ class ArticleAction extends Action{
 		//最高管理员显示所有文章
 				$result=$cate->LIMIT("$pgnum,$pglit")->order("data DESC")->findall();
 				}
+		//文章总数
 		
+		$totalpg=count($cate->findall())/$pglit;
 			$k=0;
 			foreach($result as $i=>$j)
 				{
@@ -111,7 +114,12 @@ class ArticleAction extends Action{
 		
 		$this->assign('list',$result);
 		//js参数替换~~~~~~~~~~
+		//文章总数
 		$this->assign('total',count($result));
+		//当前文章页
+		$this->assign('nowpg',$pgnum/$pglit+1);
+		//文章总页数
+		$this->assign('totalpg',$totalpg);
 		//js参数替换完成
 		$this->display('show');
 		

@@ -4120,3 +4120,963 @@
 
 [ 09-05-10 13:25:51 ]
 注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:27:13 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:28:10 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 13:28:19 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:28:19 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:28:19 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:28:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:30:22 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 13:30:25 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 13:30:25 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:30:05]  () Action->__call(非法操作images)
+[09-05-10 13:30:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:30:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:30:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 13:31:19 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 13:31:19 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:31:05]  () Action->__call(非法操作images)
+[09-05-10 13:31:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:31:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:31:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 12 行.
+
+[ 09-05-10 13:33:36 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 37 行.
+[ 09-05-10 13:33:36 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:33:05]  () Action->__call(非法操作images)
+[09-05-10 13:33:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:33:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:33:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:34:13 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:34:13 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:34:05]  () Action->__call(非法操作images)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:34:30 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:34:30 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:34:05]  () Action->__call(非法操作images)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:34:31 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:34:31 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:34:05]  () Action->__call(非法操作images)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:34:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:35:15 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:35:15 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:35:05]  () Action->__call(非法操作images)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:35:20 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:35:21 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:35:21 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:35:05]  () Action->__call(非法操作images)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:35:23 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:35:28 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:35:46 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:35:50 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:35:50 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:35:05]  () Action->__call(非法操作images)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:35:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:35:55 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:35:56 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:56 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:56 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:35:56 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:35:56 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:39:27 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:39:27 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:39:05]  () Action->__call(非法操作images)
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:39:28 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 13:39:33 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 13:39:34 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 13:39:42 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 13:39:42 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 13:39:05]  () Action->__call(非法操作images)
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 13:39:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 13:39:44 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:44 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:44 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:48 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:48 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:48 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 13:39:54 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:00:41 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:00:41 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:00:41 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:00:42 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:00:44 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Use of undefined constant tm_sec - assumed 'tm_sec' UserAction.class.php 第 31 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Use of undefined constant tm_min - assumed 'tm_min' UserAction.class.php 第 31 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Use of undefined constant tm_hour - assumed 'tm_hour' UserAction.class.php 第 31 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Use of undefined constant tm_mday - assumed 'tm_mday' UserAction.class.php 第 31 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 6 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 7 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 8 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 9 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 10 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined variable: pub 565eba06b12dc67b20478dfb49af4b42.php 第 11 行.
+
+[ 09-05-10 14:00:46 ]
+注意：[8] Undefined index:  through 565eba06b12dc67b20478dfb49af4b42.php 第 36 行.
+[ 09-05-10 14:00:46 ]
+
+错误信息：[ job User images ]非法操作images
+错误页面：/hakuams/hakuams/index.php/User/images/bg_dian.gif
+错误类型：ThinkException
+错误跟踪：
+[09-05-10 14:00:05]  () Action->__call(非法操作images)
+[09-05-10 14:00:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) UserAction->images(images, Array)
+[09-05-10 14:00:05] D:\Program Files\server\htdocs\hakuams\Temp\~runtime.php (7) App->exec()
+[09-05-10 14:00:05] D:\Program Files\server\htdocs\hakuams\index.php (13) App->run()
+
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:00:47 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:01:06 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:01:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:01:16 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:02:01 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:01 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:01 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:02 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:02:04 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:02:08 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:02:09 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:02:16 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:02:18 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:18 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:18 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:21 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:02:29 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:29 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:29 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:02:30 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined index:  style TagLibHtml.class.php 第 45 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined offset:  0 ThinkTemplate.class.php 第 578 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined variable: title aa13b9f510b059bef2f977458e506c6c.php 第 13 行.
+
+[ 09-05-10 14:02:38 ]
+注意：[8] Undefined variable: content aa13b9f510b059bef2f977458e506c6c.php 第 29 行.
+
+[ 09-05-10 14:02:50 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:02:53 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:53 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:53 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:02:55 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:03:00 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:03:00 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:03:00 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:03:07 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:04:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:04:25 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:04:25 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:04:26 ]
+注意：[8] Undefined index:  p ArticleAction.class.php 第 70 行.
+
+[ 09-05-10 14:04:54 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:04:54 ]
+注意：[8] Undefined variable: vo 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:04:54 ]
+注意：[8] Trying to get property of non-object 013cede882719e500a772f0c2d93e6b3.php 第 16 行.
+
+[ 09-05-10 14:25:09 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:25:09 ]
+注意：[8] Use of undefined constant __APP__ - assumed '__APP__' ThinkTemplate.class.php 第 184 行.
+
+[ 09-05-10 14:25:41 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:25:42 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:26:13 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:26:14 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:26:33 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:28:12 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 14:59:59 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.
+
+[ 09-05-10 15:41:47 ]
+注意：[8] Undefined index:  user_id ManAction.class.php 第 62 行.

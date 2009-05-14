@@ -5,11 +5,14 @@
 <title>无标题文档</title>
 <script language='JavaScript' src='<?php echo ($pub); ?>/Js/prototype.js'></script>  
 <script language='JavaScript'>
-//删除文章的确认
+//页码
 var total='<?php echo ($total); ?>';
+var nowpg='<?php echo ($nowpg); ?>';
+var totalpg='<?php echo ($totalpg); ?>';
+//删除文章的确认
 function delarticle(id)
 {
-	alert (total);
+	//alert (total);
 	url="/hakuams/index.php/Article/del/id/"+id;
 	if(confirm("确认删除吗?")==true){
 		//alert(url);
@@ -141,7 +144,7 @@ a:hover {
   <tr>
     <td height="30"><table width="100%" border="0" cellspacing="0" cellpadding="0">
       <tr>
-        <td width="33%"><div align="left"><span class="STYLE22">&nbsp;&nbsp;&nbsp;&nbsp;共有<strong> 243</strong> 条记录，当前第<strong> 1</strong> 页，共 <strong>10</strong> 页</span></div></td>
+        <td width="33%"><div align="left"><span class="STYLE22">&nbsp;&nbsp;&nbsp;&nbsp;共有<strong> <script language='JavaScript'> document.write(total);</script></strong> 条记录，当前第<strong> <script language='JavaScript'> document.write(nowpg);</script></strong> 页，共 <strong> <script language='JavaScript'> document.write(totalpg);</script></strong> 页</span></div></td>
         <td width="67%"><table width="312" border="0" align="right" cellpadding="0" cellspacing="0">
           <tr>
             <td width="49"><div align="center"><img src="<?php echo ($pub); ?>/Images/main_54.gif" width="40" height="15" /></div></td>

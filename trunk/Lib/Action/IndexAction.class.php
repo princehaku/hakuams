@@ -10,7 +10,7 @@ by
 */
 class IndexAction extends Action{
     public function index(){
-		
+		/*
 
 		//近期更新
 		$news=D('Document');
@@ -41,6 +41,7 @@ class IndexAction extends Action{
 			
 		$this->assign('lastest2',$result);
 		//图片新闻
+		*/
 		/*$result=$news->query("SELECT * FROM hakucms_document WHERE ( `cateid` =99) AND ( `exam` = 1 ) AND (`ispic` = 1) ORDER BY data DESC LIMIT 5 ");	
 		foreach($result as $i=>$j)
 		{
@@ -104,7 +105,7 @@ class IndexAction extends Action{
 		
 		//栏目4
 		*/
-		
+		/*
 		//专题
 		$result=$news->query("SELECT * FROM hakucms_document WHERE ( `cateid` = 107 ) AND ( `exam` = 1 ) ORDER BY data DESC LIMIT 3 ");	
 		
@@ -135,7 +136,8 @@ class IndexAction extends Action{
 		//+++++++++++++++++++++++++++++++++++++++++
         $this->assign('pub',C('PUBURL'));
 		$this->display();
-		
+		*/
+		goto(C("PUBURL")."/index.php/Man/index",0);
 		
     }
 	/*

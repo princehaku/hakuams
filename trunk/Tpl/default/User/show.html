@@ -3,7 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>用户管理系统</title>
-<link href="{$pub}/style.css" rel="stylesheet" type="text/css" />
 <script language='JavaScript' src='{$pub}/Js/main.js'></script>
 <script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
 <script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
@@ -29,7 +28,7 @@ p {
 </head>
 
 <body style="background-color:#99CCCC">
-<div id="mainPan">以下为{$time}到{$nowtime}时间段内的信息
+以下为{$time}到{$nowtime}时间段内的信息
 <div id="rightPan">
   <p><volist name="list" id="vo"><table width="98%" cellpadding="0" cellspacing="0" class="">
   <tr>
@@ -45,14 +44,13 @@ p {
   <tr valign="top">
     <td colspan="5"> <font color="#333333" size='2'><strong>编号:</strong> {$vo.id}
         <strong><font color="#333333" size='2'>本月发布的文章---------共{$vo.cout}篇</font></strong> 
-       </td>
+      </td>
   </tr>
   <tr valign="top">
     <td colspan="5"><p><strong><font size="2">上次登陆</font></strong><span class="STYLE3"><font size='2'><strong>时间:</strong></font><font color="#006699" size='2'><strong>{$vo.lastlogin|timeto}</strong></font></span><br />
     本月登陆次数:{$vo.logintime}</p></td>
   </tr>
-</table>
-                        <hr/></volist></p>
+</table> <hr/></volist></p>
 
 </div>
 </body>
