@@ -9,7 +9,7 @@ $config=array(
 	/*数据库前缀*/
 	'DB_PREFIX'         	=>'hakuams_',
 	'DB_PORT'				=>'3306', 
-	'DB_NAME'        	    =>'jobguidence',
+	'DB_NAME'        	    =>'hakuams',
 	/*用户注册的限定时间*/
 	'USERTMLIMIT'			=>2,
 	/*网站目录*/

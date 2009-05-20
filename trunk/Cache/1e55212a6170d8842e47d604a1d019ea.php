@@ -9,6 +9,8 @@
 var total='<?php echo ($total); ?>';
 var nowpg='<?php echo ($nowpg); ?>';
 var totalpg='<?php echo ($totalpg); ?>';
+var nextpg='<?php echo ($nextpg); ?>';
+var lastpg='<?php echo ($lastpg); ?>';
 //删除文章的确认
 function delarticle(id)
 {
@@ -78,6 +80,11 @@ a:hover {
 	color: #333;
 	text-decoration:none;
 	}
+.STYLE19 a:active {
+	color: #333;
+	text-decoration:none;
+	}
+
 -->
 </style>
 
@@ -114,7 +121,6 @@ a:hover {
     <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" >
       <tr>
         <td width="5%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
-          <input type="checkbox" name="checkbox" id="checkbox" />
         </div></td>
         <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">标题</div></td>
         <td width="11%" bgcolor="d3eaef" class="STYLE10"><div align="center" class="STYLE10">操作</div></td>
@@ -131,7 +137,7 @@ a:hover {
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19"><a title="<?php echo (is_array($vo)?$vo["title"]:$vo->title); ?>"><?php echo (is_array($vo)?$vo["title"]:$vo->title); ?></a></span></div></td>
         <td bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["through"]:$vo->through); ?><a href="/hakuams/index.php/Article/show/id/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>" target="_blank">查看</a>|<a href="/hakuams/index.php/Article/editarticle/articleid/<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>">编辑</a>|<a href="#" onclick="delarticle(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>);">删除</a></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center" class="STYLE19"><a class="null" title="<?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?>"><?php echo (is_array($vo)?$vo["shortcontent"]:$vo->shortcontent); ?> </a></div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">13913612548</div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["catename"]:$vo->catename); ?></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><?php echo (is_array($vo)?$vo["writer"]:$vo->writer); ?></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><strong><?php echo (timeto(is_array($vo)?$vo["data"]:$vo->data)); ?></strong></div></td>
         </tr><?php endforeach; ?><?php endif; ?><?php else: echo "" ;?><?php endif; ?>
@@ -148,7 +154,7 @@ a:hover {
         <td width="67%"><table width="312" border="0" align="right" cellpadding="0" cellspacing="0">
           <tr>
             <td width="49"><div align="center"><img src="<?php echo ($pub); ?>/Images/main_54.gif" width="40" height="15" /></div></td>
-            <td width="49"><div align="center"><img src="<?php echo ($pub); ?>/Images/main_56.gif" width="45" height="15" /></div></td>
+            <td width="49"><div align="center"><script language='JavaScript'> document.write("<a href='index/p/");document.write(nextpg);document.write("'>");</script><img src="<?php echo ($pub); ?>/Images/main_56.gif" width="45" height="15"  border="0"/><script language='JavaScript'> document.write("</a>");</script></div></td>
             <td width="49"><div align="center"><img src="<?php echo ($pub); ?>/Images/main_58.gif" width="45" height="15" /></div></td>
             <td width="49"><div align="center"><img src="<?php echo ($pub); ?>/Images/main_60.gif" width="40" height="15" /></div></td>
             <td width="37" class="STYLE22"><div align="center">转到</div></td>
