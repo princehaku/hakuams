@@ -68,31 +68,34 @@ class ArticleAction extends Action{
 		$this->common();
 		//得到每页显示文章数
 		$pglit=C("ARTNUMS");
+		
+		$user=D('User');
+		
+		$cate=D('Category');
 		//得到页码
 		$pgnum=uh($_GET["p"])*$pglit;
 		
-		if($pgnum>$pglit){
+		/*if($pgnum>$pglit){
 			
 			$this->error("参数错误");
 			
-			}
-		$user=D('User');
+			}*/
 			
 		$result=$user->where(array('id'=>$_SESSION['user_id']))->findall();
 			
-		$cate=D("Document");
+		$doc=D("Document");
 		
 		if($_SESSION['admin']!=1){
 		//非最高等级管理员显示自己的文章
-				$result=$cate->LIMIT("$pgnum,$pglit")->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall();
+				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall();
 				}
 			else{
 		//最高管理员显示所有文章
-				$result=$cate->LIMIT("$pgnum,$pglit")->order("data DESC")->findall();
+				$result=$doc->LIMIT("$pgnum,$pglit")->order("data DESC")->findall();
 				}
 		//文章总数
 		
-		$totalpg=count($cate->findall())/$pglit;
+		$total=count($doc->findall());
 			$k=0;
 			foreach($result as $i=>$j)
 				{
@@ -102,25 +105,47 @@ class ArticleAction extends Action{
 					if(C('PERMISSION')==1){
 						if ($j['exam']==0 & $_SESSION['admin']==1)
 						{
-							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/exam/id/".$j['id']."'>授权</a>|";
+							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/exam/id/".$j['id']."'><font color='#222'>授权</font></a>|";
 						}
 						if ($j['exam']==1 & $_SESSION['admin']==1)
 						{
 							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/unexam/id/".$j['id']."'>消权</a>|";
 						}
 					 }
-					//$result[$i]['shortcon']=substr(str_replace("img","",$result[$i]['content']),0,700);
+					//如果没有shortcomment指定content的内容
+					if($result[$i]['shortcontent']=="")
+					{
+						$result[$i]['shortcontent']="*".substr($result[$i]['content'],0,400);
+						}
+					//去除html标签
+					$result[$i]['shortcontent']=strip_tags(($result[$i]['shortcontent']));
+					//转义html
+					$result[$i]['title']=htmlspecialchars($result[$i]['title']);
+					//根据目录id查找目录名字
+					$res=$cate->where(array('id'=>$result[$i]['cateid']))->findall(1);
+					
+					$result[$i]['catename']=$res[0]['name'];
 				}
 		
 		$this->assign('list',$result);
-		//js参数替换~~~~~~~~~~
+		//js参数替换~~~~~~~~~~~~~~~~~
 		//文章总数
-		$this->assign('total',count($result));
+		$this->assign('total',$total);
 		//当前文章页
 		$this->assign('nowpg',$pgnum/$pglit+1);
 		//文章总页数
-		$this->assign('totalpg',$totalpg);
-		//js参数替换完成
+		$this->assign('totalpg',ceil($total/$pglit));
+		//输出下一页的标签
+		if($pgnum/$pglit+1<ceil($total/$pglit))
+		{
+			$this->assign('nextpg',$pgnum/$pglit+2);
+			}
+		//输出上一页的标签
+		if($pgnum/$pglit+1>1)
+		{
+			$this->assign('lastpg',$pgnum/$pglit);
+			}
+		//----------------js参数替换完成
 		$this->display('show');
 		
 		

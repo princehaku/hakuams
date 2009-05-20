@@ -28,7 +28,7 @@
 ]
 	<p>目录<select name="category" id="category">
       <option value="<?php echo ($nowcate); ?>"><?php echo ($nowcatename); ?></option>
-     <?php if(is_array($cate)): ?><?php $i = 0;?><?php $__LIST__ = $cate?><?php if( count($__LIST__)==0 ) : echo "" ; ?><?php else: ?><?php foreach($__LIST__ as $key=>$vo): ?><?php ++$i;?><?php $mod = (($i % 2 )==0)?><option value="<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>"><?php echo (is_array($vo)?$vo["name"]:$vo->name); ?></option><?php endforeach; ?><?php endif; ?><?php else: echo "" ;?><?php endif; ?>
+     <?php if(is_array($cate)): ?><?php $i = 0;?><?php $__LIST__ = $cate?><?php if( count($__LIST__)==0 ) : echo "" ; ?><?php else: ?><?php foreach($__LIST__ as $key=>$vo): ?><?php ++$i;?><?php $mod = (($i % 2 )==0)?><option value="<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>"><?php echo (is_array($vo)?$vo["name"]:$vo->name); ?>(<?php echo (is_array($vo)?$vo["id"]:$vo->id); ?>)</option><?php endforeach; ?><?php endif; ?><?php else: echo "" ;?><?php endif; ?>
       </select></p>
           <div id="image"></div>
 正文<br>
