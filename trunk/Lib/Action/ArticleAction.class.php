@@ -67,7 +67,9 @@ class ArticleAction extends Action{
 		
 		$this->common();
 		//得到每页显示文章数
-		$pglit=C("ARTNUMS");
+		$pglit=$_GET["n"];
+		//如果为空使用默认设置
+		if($pglit=="")$pglit=C("ARTNUMS");
 		
 		$user=D('User');
 		
@@ -138,12 +140,12 @@ class ArticleAction extends Action{
 		//输出下一页的标签
 		if($pgnum/$pglit+1<ceil($total/$pglit))
 		{
-			$this->assign('nextpg',$pgnum/$pglit+2);
+			$this->assign('nextpg',$pgnum/$pglit+1);
 			}
 		//输出上一页的标签
 		if($pgnum/$pglit+1>1)
 		{
-			$this->assign('lastpg',$pgnum/$pglit);
+			$this->assign('lastpg',$pgnum/$pglit-1);
 			}
 		//----------------js参数替换完成
 		$this->display('show');
@@ -434,7 +436,7 @@ class ArticleAction extends Action{
 		
 		if($_POST['doctype']==1){
 			
-			$doc->ispic=1;
+			$doc->doctype=1;
 			
 			$doc->picurl=$this->savepic();
 			
@@ -491,7 +493,7 @@ class ArticleAction extends Action{
 		//如果上传的是图片转入图片处理
 		if($_POST['doctype']==1){
 			
-		    $doc->ispic=1;
+		    $doc->doctype=1;
 			
 			$doc->picurl=$this->savepic();
 			}
