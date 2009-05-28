@@ -20,6 +20,8 @@ $config=array(
 	'DATABASEURL' 		    =>"/phpMyAdmin",
 	/*是否开启用户注册功能*/
 	'CANREGISTER'           =>0,
+	/*是否开启文档授权*/
+	'PERMISSION'            =>0,
 	/*文章提交的限定时间*/
 	'TIMEOUT'				=>3,
 	/*文章管理每页显示的数量*/
@@ -32,8 +34,6 @@ $config=array(
 	'UPLOAD_ALLOWEXTS'      =>'jpg|jpge|gif|bmp',
 	/*文档类型*/
 	/*'ARCTYPE'               =>array(0=>'标准',1=>'图文',2=>'图集'),*/
-	/*是否开启文档授权*/
-	'PERMISSION'            =>0,
 	/*普通用户的菜单*/
 	'NORMALMENU'                      =>array(
 		0=>array(

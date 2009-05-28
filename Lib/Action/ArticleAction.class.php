@@ -120,7 +120,7 @@ class ArticleAction extends Action{
 					{
 						$result[$i]['shortcontent']="*".substr($result[$i]['content'],0,400);
 						}
-					//去除html标签
+					//去除html标签并去掉两边空白
 					$result[$i]['shortcontent']=strip_tags(($result[$i]['shortcontent']));
 					//转义html
 					$result[$i]['title']=htmlspecialchars($result[$i]['title']);
