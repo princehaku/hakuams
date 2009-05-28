@@ -10,10 +10,12 @@ $config=array(
 	'DB_PREFIX'         	=>'hakuams_',
 	'DB_PORT'				=>'3306', 
 	'DB_NAME'        	    =>'hakuams',
-	/*用户注册的限定时间*/
+	/*用户注册的限定时间(毫秒)*/
 	'USERTMLIMIT'			=>2,
-	/*网站目录*/
+	/*网站根目录*/
 	'PUBURL' 		        =>"http://".$_SERVER['HTTP_HOST']."/hakuams",
+	/*网站首页*/
+	'INDEXURL' 		    =>"/index.php",
 	/*网站数据库地址*/
 	'DATABASEURL' 		    =>"/phpMyAdmin",
 	/*是否开启用户注册功能*/
@@ -24,14 +26,14 @@ $config=array(
 	'ARTNUMS'               =>17,
 	/*在这个时间范围内登陆只算一次*/
 	'LGTIME'				=>3600,
-	/*图片上传目录*/
+	/*图片上传目录(注意是否可以跨htdocs)*/
 	'DIR'                   =>'D:/Program Files/server/htdocs/job/uploads',
 	/*允许上传的图片类型*/
 	'UPLOAD_ALLOWEXTS'      =>'jpg|jpge|gif|bmp',
 	/*文档类型*/
-	'ARCTYPE'               =>array(0=>'标准',1=>'图文'),
+	/*'ARCTYPE'               =>array(0=>'标准',1=>'图文',2=>'图集'),*/
 	/*是否开启文档授权*/
-	'PERMISSION'            =>1,
+	'PERMISSION'            =>0,
 	/*普通用户的菜单*/
 	'NORMALMENU'                      =>array(
 		0=>array(

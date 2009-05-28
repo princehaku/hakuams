@@ -155,10 +155,37 @@ a:hover {
         <td width="33%"><div align="left"><span class="STYLE22">&nbsp;&nbsp;&nbsp;&nbsp;共有<strong> <script language='JavaScript'> document.write(total);</script></strong> 条记录，当前第<strong> <script language='JavaScript'> document.write(nowpg);</script></strong> 页，共 <strong> <script language='JavaScript'> document.write(totalpg);</script></strong> 页</span></div></td>
         <td width="67%"><table width="312" border="0" align="right" cellpadding="0" cellspacing="0">
           <tr>
-            <td width="49"><div align="center"><img src="{$pub}/Images/main_54.gif" width="40" height="15" /></div></td>
-            <td width="49"><div align="center"><script language='JavaScript'> document.write("<a href='index/p/");document.write(nextpg);document.write("'>");</script><img src="{$pub}/Images/main_56.gif" width="45" height="15"  border="0"/><script language='JavaScript'> document.write("</a>");</script></div></td>
-            <td width="49"><div align="center"><img src="{$pub}/Images/main_58.gif" width="45" height="15" /></div></td>
-            <td width="49"><div align="center"><img src="{$pub}/Images/main_60.gif" width="40" height="15" /></div></td>
+            <td width="49"><div align="center"><a href="{$pub}/index.php/Article/index"><img src="{$pub}/Images/main_54.gif" width="40" height="15" border="0" /></a></div></td>
+            <td width="49"><div align="center">
+			<script language='JavaScript'> 
+			if(lastpg!=""){
+			document.write("<a href='{$pub}/index.php/Article/index/p/");
+			document.write(lastpg);
+			}
+			else
+			{
+				document.write("<a href='#"); 
+				}
+			document.write("'>");
+            </script>
+            <img src="{$pub}/Images/main_56.gif" width="45" height="15"  border="0"/>
+			<script language='JavaScript'>document.write("</a>");</script></div></td>
+            <td width="49"><div align="center">
+			<script language='JavaScript'>
+			if(nextpg!=""){
+			document.write("<a href='{$pub}/index.php/Article/index/p/"); 
+			document.write(nextpg);
+			}
+			else
+			{
+				document.write("<a href='#"); 
+				}
+			document.write("'>");
+            </script>
+            <img src="{$pub}/Images/main_58.gif" width="45"  border="0" height="15" />
+			<script language='JavaScript'>document.write("</a>");</script></div></td>
+            <td width="49"><div align="center"><script language='JavaScript'>
+			document.write("<a href='{$pub}/index.php/Article/index/p/");document.write(totalpg-1);document.write("'>");</script><img src="{$pub}/Images/main_60.gif" width="40" height="15" border="0"/><script language='JavaScript'>document.write("</a>");</script></div></td>
             <td width="37" class="STYLE22"><div align="center">转到</div></td>
             <td width="22"><div align="center">
               <input type="text" name="textfield" id="textfield"  style="width:20px; height:12px; font-size:12px; border:solid 1px #7aaebd;"/>
