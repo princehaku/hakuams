@@ -35,6 +35,7 @@ class UserAction extends Action{
 			$name=$j['username'];
 			//获得登陆次数
 			$s=$state->where(array('ltime'=>array($lastmonth,time()),'user'=>$name))->findall();	
+			//如果是第一次登录设置初始0
 			if($s!=""){
 			$result[$i]['logintime']=count($s);}
 			else
@@ -167,7 +168,7 @@ class UserAction extends Action{
 		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}
 		$usl = D("User");
 		
-		$result=$usl->where(array('id'=>$_POST['schid']))->findall();
+		$result=$usl->where(array('id'=>$_POST['id']))->findall();
 		
 		$usl->username=$_POST['username'];
 		$usl->name=$_POST['name'];
@@ -179,6 +180,8 @@ class UserAction extends Action{
 		//防止重复提交
 		//if ($_SESSION['lastpost']!="" & time()-$_SESSION['lastpost']<=60){$this->error("每1分钟只能提交一次");}
 		//$_SESSION['lastpost']=time();
+		
+		$this->jumpUrl=C("PUBURL")."/index.php/User/showall";
 		
 		if($usl->save()){$this->success("更新成功");}else{$this->success("更新失败");}
 		
@@ -237,7 +240,7 @@ class UserAction extends Action{
 		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}
 		$user  =  D("User");
 		
-		$result=$user->where(array('id'=>$_GET['userid']))->findall();
+		$result=$user->where(array('id'=>uh($_GET['userid'])))->findall();
 		//echo $result[0]['permission'];
 		//文章授权部分
 		if(C("PERMISSION")==1 & $result[0]['permission']==0)
@@ -278,6 +281,7 @@ class UserAction extends Action{
 
 		$this->assign('qq',$result[0]['qq']);
 		
+		$this->assign('uid',uh($_GET['userid']));
 		//导入url
 		//+++++++++++++++++++++++++++++++++++++++++
         $this->assign('pub',C('PUBURL'));
