@@ -188,10 +188,13 @@ a:hover {
 			document.write("<a href='{$pub}/index.php/Article/index/p/");document.write(totalpg-1);document.write("'>");</script><img src="{$pub}/Images/main_60.gif" width="40" height="15" border="0"/><script language='JavaScript'>document.write("</a>");</script></div></td>
             <td width="37" class="STYLE22"><div align="center">转到</div></td>
             <td width="22"><div align="center">
-              <input type="text" name="textfield" id="textfield"  style="width:20px; height:12px; font-size:12px; border:solid 1px #7aaebd;"/>
+            <form method="get" action="{$pub}/index.php/Article/index/" id="pagegoto">
+            <input type="text" name="p" style="width:20px; height:12px; font-size:12px; border:solid 1px #7aaebd;"/>
+            <input type="hidden" name="goto" value="1" />
             </div></td>
             <td width="22" class="STYLE22"><div align="center">页</div></td>
-            <td width="35"><img src="{$pub}/Images/main_62.gif" width="26" height="15" /></td>
+            <td width="35"><img src="{$pub}/Images/main_62.gif" width="26" height="15" onclick="$('pagegoto').submit();"/></td>
+            </form>
           </tr>
         </table></td>
       </tr>

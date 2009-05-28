@@ -77,6 +77,7 @@ class ArticleAction extends Action{
 		//得到页码
 		$pgnum=uh($_GET["p"])*$pglit;
 		
+		if($_GET['goto'])$pgnum=uh($_GET["p"]-1)*$pglit;
 		/*if($pgnum>$pglit){
 			
 			$this->error("参数错误");
