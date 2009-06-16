@@ -118,14 +118,15 @@ a:hover {
     </table></td>
   </tr>
   <tr>
-    <td><table width="100%" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" >
+    <td><table width="1024" border="0" cellpadding="0" cellspacing="1" bgcolor="#a8c7ce" >
       <tr>
         <td width="5%" height="20" bgcolor="d3eaef" class="STYLE10"><div align="center">
         </div></td>
         <td width="14%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">标题</div></td>
-        <td width="11%" bgcolor="d3eaef" class="STYLE10"><div align="center" class="STYLE10">操作</div></td>
-        <td width="33%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">简略描述</div></td>
-        <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">所在目录</div></td>
+        <td width="3%" bgcolor="d3eaef" class="STYLE10"><div align="center" class="STYLE10">类型</div></td>
+        <td width="12%" bgcolor="d3eaef" class="STYLE10"><div align="center" class="STYLE10">操作</div></td>
+        <td width="31%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">简略描述</div></td>
+        <td width="7%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">所在目录</div></td>
         <td width="10%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center" class="STYLE10">发布者</div></td>
         <td width="17%" height="20" bgcolor="d3eaef" class="STYLE6"><div align="center"><span class="STYLE10">发布时间</span></div></td>
         </tr>
@@ -135,7 +136,8 @@ a:hover {
         <td height="20" bgcolor="#FFFFFF"><div align="center">
           <input type="checkbox" name="article{$vo.id}" id="checkbox{$vo.oid}" />
         </div></td>
-        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19"><a title="{$vo.title}">{$vo.title}</a></span></div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div><span class="STYLE19"><a title="{$vo.title}">{$vo.title}</a></span></div></td>
+        <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center"><span class="STYLE19">{$vo.type}</span></div></td>
         <td bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$vo.through}<a href="__APP__/Article/show/id/{$vo.id}" target="_blank">查看</a>|<a href="__APP__/Article/editarticle/articleid/{$vo.id}">编辑</a>|<a href="#" onclick="delarticle({$vo.id});">删除</a></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="left" class="STYLE19"><a class="null" title="{$vo.shortcontent}">{$vo.shortcontent} </a></div></td>
         <td height="20" bgcolor="#FFFFFF" class="STYLE19"><div align="center">{$vo.catename}</div></td>
