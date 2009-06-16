@@ -128,6 +128,10 @@ class ArticleAction extends Action{
 					$res=$cate->where(array('id'=>$result[$i]['cateid']))->findall(1);
 					
 					$result[$i]['catename']=$res[0]['name'];
+					//文档类型
+					$dc=C('ARCTYPE');
+					//print_r($result[$i]['doctype']);
+					$result[$i]['type']=$dc[$result[$i]['doctype']];
 				}
 		
 		$this->assign('list',$result);
