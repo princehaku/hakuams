@@ -199,6 +199,7 @@ class ArticleAction extends Action{
     }
 	
 	*/
+	//文章预览
 	public function show()
 	{
 		$doc=D("Document");
@@ -210,6 +211,8 @@ class ArticleAction extends Action{
 		$this->assign('doc',$result);
 
         $this->assign('pub',C('PUBURL'));
+		
+		$this->assign('SPICURL',C('SPICURL'));
 		
 		$this->display('preview');
 		
@@ -340,7 +343,7 @@ class ArticleAction extends Action{
 		$this->display('article');
 		
 	}
-
+    //旧文章修改
 	public function editarticle(){
 		
 		$this->common();
@@ -356,7 +359,7 @@ class ArticleAction extends Action{
 		$doc   =D("Document");
 		
 		$artid =$_GET['articleid'];
-		
+		//权限验证
 		if($_SESSION['admin']!=1){
 		
 			$tr=$doc->where(array('writer'=>$result[0]['username'],'id'=>$artid))->findall();
@@ -378,6 +381,12 @@ class ArticleAction extends Action{
 		
 		$this->assign('title',$result[0]['title']);
 		
+		$this->assign('shortcnt',$tr[0]['shortcontent']);
+		
+		$this->assign('doctype',$tr[0]['doctype']);
+		
+		$this->assign('picurl',C("SPICURL").$tr[0]['picurl']);
+		
 		$this->assign('content',$result[0]['content']);
 		//固定目录
 		//+++++++++++++++++++++++++++++++++++++++++
@@ -386,7 +395,7 @@ class ArticleAction extends Action{
 		$this->assign('nowcatename',"不改变目录".$tr[0]['cateid']);
 		
 		$cate=D("Category");
-		
+		//更具用户的权限设置显示目录
 		if ($_SESSION['admin']!=1){
 			
 			$user=D('User');
@@ -500,7 +509,14 @@ class ArticleAction extends Action{
 			
 		    $doc->doctype=1;
 			
-			$doc->picurl=$this->savepic();
+			if($_FILES['image']['name']=="")
+				{
+					;
+					}
+			else
+				{
+				$doc->picurl=$this->savepic();
+					}
 			}
 		//$doc->data=time();
 		
