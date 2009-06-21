@@ -26,6 +26,8 @@ class ManAction extends Action{
 		$this->assign("username",$_SESSION['username']);
 		//服务器ip地址
 		$this->assign("ip",$_SERVER['REMOTE_ADDR']);
+		//站点首页
+		$this->assign("INDEX",C("INDEXURL"));
 		//服务器数据库地址
 		$this->assign("DATABASEURL",C("DATABASEURL"));
 		

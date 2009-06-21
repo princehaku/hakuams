@@ -28,8 +28,10 @@ $config=array(
 	'ARTNUMS'               =>17,
 	/*在这个时间范围内登陆只算一次*/
 	'LGTIME'				=>3600,
-	/*图片上传目录(注意是否可以跨htdocs)*/
-	'DIR'                   =>'D:/Program Files/server/htdocs/job/uploads',
+	/*图片上传目录(注意php的设置是否可以跨htdocs)*/
+	'DIR'                   =>'D:/Program Files/server/htdocs/hakuams/uploads',
+	/*图片显示的路径设置(用于后台缩略图的正确显示)*/
+	'SPICURL'                   =>'/hakuams/uploads/',
 	/*允许上传的图片类型*/
 	'UPLOAD_ALLOWEXTS'      =>'jpg|jpge|gif|bmp',
 	/*文档类型*/
