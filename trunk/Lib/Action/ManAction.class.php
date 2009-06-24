@@ -9,6 +9,21 @@ by
 	 	  http://baizhongwei.hackbase.com
 */
 class ManAction extends Action{
+			
+    public function index(){
+		
+		$this->common();
+		
+		if($_SESSION['user_id']!="")
+		{
+			
+			$this->display("man");
+			
+		}
+		
+			$this->display();
+    }
+	
 	public function common()
 	{	
 		//导入url
@@ -30,8 +45,6 @@ class ManAction extends Action{
 		$this->assign("INDEX",C("INDEXURL"));
 		//服务器数据库地址
 		$this->assign("DATABASEURL",C("DATABASEURL"));
-		
-		$this->assign('pub',C("PUBURL"));
 		
 		$this->display("top");
 		}
@@ -56,20 +69,7 @@ class ManAction extends Action{
 		$this->display("left");
 		
 		}
-		
-    public function index(){
-		
-		$this->common();
-		
-		if($_SESSION['user_id']!="")
-		{
-			
-			$this->display("man");
-			
-		}
-		
-			$this->display();
-    }
+
 	
 }
 ?>

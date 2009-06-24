@@ -35,13 +35,13 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=C("DIR")."/";
+		$savePath=C("DIR")."/".date("Ymd",time())."/";
 		//如果目录不存在则创建目录
 		if(!is_dir($savePath))
 			{
 				if(!mkdir($savePath))
 				{
-					$this->error("创建图片保存目录出错,请重试");
+					$this->error("创建图片保存目录出错,请检查是否有权限");
 				}
 					}
 			
@@ -53,7 +53,7 @@ class ArticleAction extends Action{
 		{
 			$suc= $upload->getUploadFileInfo();
 			
-			return $suc[0]['savename'];
+			return date("Ymd",time())."/".$suc[0]['savename'];
 			}
 		else
 		{
@@ -504,6 +504,12 @@ class ArticleAction extends Action{
 		$doc->shortcontent=htmlspecialchars(str_replace("</script>","",str_replace("\\\"","\"",$_POST['shortcontent'])));
 		//保存目录
 		$doc->cateid=htmlspecialchars($_POST['category']);
+		//删除原来的图片
+		$savePath=C("DIR")."/";
+		unlink($savePath.$tr[0]['picurl']);
+		//删除目录
+		$dir=explode("/",$tr[0]['picurl']);
+		unlink($savePath.$dir[0]);
 		//如果上传的是图片转入图片处理
 		if($_POST['doctype']==1){
 			
