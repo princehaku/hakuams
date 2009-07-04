@@ -28,6 +28,7 @@ function timeto($u)
 			return $u;
 
 		}
+		//过滤危险代码
 function uh($str) 
 { 
 			$farr = array( 
@@ -37,9 +38,9 @@ function uh($str)
 			
 			); 
 			$tarr = array( 
-			" ", 
+			"", 
 			"", //假如要直接清除不安全的标签，这里可以留空 
-			"\\1\\2", 
+			"", 
 			); 
 			$str = preg_replace( $farr,$tarr,$str); 
 			return $str; 

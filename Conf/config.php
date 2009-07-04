@@ -39,7 +39,7 @@ $config=array(
 	/*普通用户的菜单*/
 	'NORMALMENU'                      =>array(
 		0=>array(
-				 'url'=>"__APP__/Article/add",
+				 'url'=>"/Article/addarticle",
 				 'name'=>'添加文章'
 				 ),
 		1=>array(

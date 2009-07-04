@@ -168,7 +168,7 @@ class UserAction extends Action{
 		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}
 		$usl = D("User");
 		
-		$result=$usl->where(array('id'=>$_POST['id']))->findall();
+		$result=$usl->where(array('id'=>$_POST['id']))->limit(1)->findall();
 		
 		$usl->username=$_POST['username'];
 		$usl->name=$_POST['name'];
@@ -183,7 +183,7 @@ class UserAction extends Action{
 		
 		$this->jumpUrl=C("PUBURL")."/index.php/User/showall";
 		
-		if($usl->save()){$this->success("更新成功");}else{$this->success("更新失败");}
+		if($usl->where(array('id'=>$_POST['id']))->limit(1)->save()){$this->success("更新成功");}else{$this->success("更新失败");}
 		
 	}
 	public function cginfo(){

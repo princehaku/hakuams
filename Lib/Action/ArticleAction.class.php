@@ -468,7 +468,7 @@ class ArticleAction extends Action{
 		
 		$doc->exam=1;
 		
-		if ($_SESSION['admin']==0 & C('PREMISSION')==1){
+		if ($_SESSION['admin']==0 & C('PERMISSION')==1){
 			$doc->exam=0;
 			}
 		$doc->data=time();
@@ -509,6 +509,7 @@ class ArticleAction extends Action{
 		unlink($savePath.$tr[0]['picurl']);
 		//删除目录
 		$dir=explode("/",$tr[0]['picurl']);
+		
 		unlink($savePath.$dir[0]);
 		//如果上传的是图片转入图片处理
 		if($_POST['doctype']==1){

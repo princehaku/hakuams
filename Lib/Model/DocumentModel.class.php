@@ -3,7 +3,7 @@
 class DocumentModel extends Model
 {
 
-	//protected $trueTableName ='document';
+	//protected $trueTableName ='looker_news';
 
 }
 
