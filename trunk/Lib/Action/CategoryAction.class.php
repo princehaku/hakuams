@@ -14,9 +14,8 @@ class CategoryAction extends Action{
 	{	
 		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/stupub/index.php/Man/index",3);die();}//用户模块
 		//+++++++++++++++++++++++++++++++++++++++++
-
-
-
+		
+		
 		//导入url
 		//+++++++++++++++++++++++++++++++++++++++++
         $this->assign('pub',"http://".$_SERVER['HTTP_HOST']);
@@ -24,6 +23,8 @@ class CategoryAction extends Action{
 	
     public function index()
 	{
+		$this->common();
+		
 		//目录的显示
 		//+++++++++++++++++++++++++++++++++++++++++
 		$cate=D("Category");
@@ -35,9 +36,6 @@ class CategoryAction extends Action{
 		$this->assign('nowcat',0);
 		
 		$this->assign('nowcatname','顶级目录');
-		
-		$this->common();
-		
 		
 		$this->display("modify");
 		
@@ -62,8 +60,11 @@ class CategoryAction extends Action{
 		$this->common();
 		
 		$cat= D('Category');
+		
 		$cat->name=$_POST['newcate'];
+		
 		$cat->upcat=$_POST['category2'];
+		
 		if($cat->add())
 		{
 			$this->success("添加成功！");
@@ -100,19 +101,23 @@ class CategoryAction extends Action{
 		
 		$this->success("修改成功！");
 	}
-	//得到子目录
+	//得到子目录(ajax)
 	public function getsub()
 	{
-		$cateid=$_GET['id'];
+		$cateid=uh($_GET['id']);
 		
 		$cate=D('Category');
+		
 		$idv="";
+		
 		$banner=$cate->where(array('upcat'=>$cateid))->findall();
+		
 		foreach($banner as $i=>$j)
 		{
 			$id=$j['id'];
 			$idv =$idv. "<a href='".C('PUBURL')."/index.php/Category/expand/id/$id'
 			 style='width:60px;color:#FFF;margin:0px 10px;'>".$j['name']."</a>";		}
+			 
 		$this->ajaxreturn($idv);
 	}
 		
