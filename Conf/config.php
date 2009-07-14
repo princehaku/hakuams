@@ -1,7 +1,7 @@
 <?php
 
 $config=array(
-	'DEBUG_MODE'		    =>true,
+	'DEBUG_MODE'		    =>false,
 	'DB_TYPE'				=>'mysql',					
 	'DB_HOST'				=>'localhost',  
 	'DB_USER'				=>'root', 
