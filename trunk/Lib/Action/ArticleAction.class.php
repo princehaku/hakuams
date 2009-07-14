@@ -133,7 +133,13 @@ class ArticleAction extends Action{
 					//print_r($result[$i]['doctype']);
 					$result[$i]['type']=$dc[$result[$i]['doctype']];
 				}
-		
+		/*require ("Class/class-excel-xml.inc.php");
+		// generate excel file
+		$xls = new Excel_XML;
+		$xls->addArray ( $result );
+		$xls->generateXML ("mytest");
+		die();*/
+		//文章页主要内容替换
 		$this->assign('list',$result);
 		//js参数替换~~~~~~~~~~~~~~~~~
 		//文章总数
