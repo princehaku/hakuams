@@ -85,11 +85,12 @@ class ArticleAction extends Action{
 			}*/
 			
 		$result=$user->where(array('id'=>$_SESSION['user_id']))->findall();
-			
+		
 		$doc=D("Document");
 		
 		//文章总数
 		$total=count($doc->where(array('writer'=>$result[0]['mid']))->order("data DESC")->findall());
+		
 		
 		if($_SESSION['admin']!=1){
 		//非最高等级管理员显示自己的文章
