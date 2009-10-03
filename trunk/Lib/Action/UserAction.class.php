@@ -32,7 +32,7 @@ class UserAction extends Action{
 		$result=$user->findall();
 		foreach($result as $i=>$j)
 		{
-			$name=$j['username'];
+			$name=$j['name'];
 			//获得登陆次数
 			$s=$state->where(array('ltime'=>array($lastmonth,time()),'user'=>$name))->findall();	
 			//如果是第一次登录设置初始0
