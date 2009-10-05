@@ -89,7 +89,7 @@ class ArticleAction extends Action{
 		$doc=D("Document");
 		
 		//文章总数
-		$total=count($doc->where(array('writer'=>$result[0]['mid']))->order("data DESC")->findall());
+		$total=count($doc->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall());
 		
 		
 		if($_SESSION['admin']!=1){
