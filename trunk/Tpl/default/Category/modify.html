@@ -3,12 +3,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>目录管理系统</title>
-<script language='JavaScript' src='{$pub}/Js/main.js'></script>
-<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/mootools.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/Ajax/ThinkAjax.js'></script>
-<script language='JavaScript' src='{$pub}/Js/Form/CheckForm.js'></script>  
 <style type="text/css">
 <!--
 body {
@@ -56,9 +50,25 @@ body {
 <form id="form3" name="form3" method="post" action="__APP__/Category/delcate">
   <p><b>删除目录：</b></p>
   <p>请选择所要删除的目录：
-    <select name="category3" id="select"><volist name="cate" id="vo"><option value="{$vo.id}">{$vo.name}</option>
+    <select name="category3" id="select">
+    <volist name="cate" id="vo">
+    <option value="{$vo.id}">{$vo.name}</option>
     </volist>
     </select>
+  </p>
+  <p>
+    <label>
+      <input name="dealarticle" type="radio" id="dealarticle_0" value="1" checked="checked" />
+      文章移动到
+    </label>
+    <select name="tocate" id="select">
+        <volist name="cate" id="vo">
+        <option value="{$vo.id}">{$vo.name}</option>
+        </volist>
+    </select>
+    <label>
+      <input name="dealarticle" type="radio" id="dealarticle_1" value="2" /> 
+      删除</label>
   </p>
 
   <p>
