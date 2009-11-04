@@ -69,8 +69,8 @@ class UserAction extends Action{
 		$this->error('请输入用户名');}
 		if ($pwd==""){
 		$this->error('请输入密码');}
-		//if ($_SESSION['verify']!=md5($_POST['verify'])){
-		//$this->error('验证码错误');}
+		if ($_SESSION['verify']!=md5($_POST['verify'])){
+		$this->error('验证码错误');}
 		$user  =  D("User");
 		$result=$user->where(array('username'=>$usr))->findall();
 		//判断是否正确
