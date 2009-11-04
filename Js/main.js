@@ -47,7 +47,7 @@ function upinfo()
 }
 
 //得到元素
-function $(id)
+function $$(id)
 {
 	return document.getElementById(id);
 	}

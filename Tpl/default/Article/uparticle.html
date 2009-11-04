@@ -11,22 +11,17 @@ var $tp="{$doctype}";
 var $picurl="{$picurl}";
 function showpic()
 {
-	if($tp==1 || $("doctype_1").checked==true)
+	if($tp==1 || $$("doctype_1").checked==true)
 		{
-			$("doctype_1").checked=true;
-			$("ext").innerHTML='<div><div style="width:300px;float:left;">缩略图<input name="image" type="file" /><br />(如不更改请动)<br />简略的描述<input name="shortcontent" type="text" value="' + $sht + '"><br /><br />正文</div><div style="width:300px;float:left;"><img  src="'+$picurl+'" width="200" height="100"></div></div>';}
+			$$("doctype_1").checked=true;
+			$$("ext").innerHTML='<div><div style="width:300px;float:left;">缩略图<input name="image" type="file" /><br />(如不更改请动)<br />简略的描述<input name="shortcontent" type="text" value="' + $sht + '"><br /><br />正文</div><div style="width:300px;float:left;"><img  src="'+$picurl+'" width="200" height="100"></div></div>';}
 		else
 		{
-			$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text" value="' + $sht + '"></p>正文<br />';
+			$$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text" value="' + $sht + '"></p>正文<br />';
 		}
 		$tp=2;
 	}
 </script>
-<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/mootools.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/Ajax/ThinkAjax.js'></script>
-
 </head>
 <body bgcolor="#99CCCC" onLoad="showpic();">
 
