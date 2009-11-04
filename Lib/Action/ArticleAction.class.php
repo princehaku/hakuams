@@ -89,16 +89,17 @@ class ArticleAction extends Action{
 		$doc=D("Document");
 		
 		//文章总数
-		$total=count($doc->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall());
-		
 		
 		if($_SESSION['admin']!=1){
 		//非最高等级管理员显示自己的文章
 				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall();
+				
+				$total=count($doc->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall());
 				}
 			else{
 		//最高管理员显示所有文章
 				$result=$doc->LIMIT("$pgnum,$pglit")->order("data DESC")->findall();
+				$total=count($doc->order("data DESC")->findall());
 				}
 		
 			$k=0;
@@ -153,8 +154,12 @@ class ArticleAction extends Action{
 		//输出下一页的标签
 		if($pgnum/$pglit+1<ceil($total/$pglit))
 		{
-			$this->assign('nextpg',($pgnum/$pglit)."#");
+			$this->assign('nextpg',($pgnum/$pglit+1));
 			}
+		else
+		{
+			$this->assign('nextpg',($pgnum/$pglit)."#");
+				}
 		//输出上一页的标签
 		if($pgnum/$pglit+1>1)
 		{

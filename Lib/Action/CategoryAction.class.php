@@ -77,13 +77,23 @@ class CategoryAction extends Action{
 	{
 		$this->common();
 		
-		$id=$_POST['category3'];
+		$id=(int)$_POST['category3'];
+		
+		$tid=(int)$_POST['tocate'];
+		
+		$ope=(int)$_POST['dealarticle'];
 		
 		$cat= D('Category');
 		
 		$cat->query("DELETE FROM `".C('DB_PREFIX')."category` WHERE `".C('DB_PREFIX')."category`.`id` =$id LIMIT 1");
+		if($ope==1)
+		{
+		$doc=D("Document");
 		
-		$this->success("删除成功！");
+		$doc->query("update `".C('DB_PREFIX')."document` set `cateid`=$tid where `".C('DB_PREFIX')."document`.`cateid` =$id");
+			}
+		$this->success("操作成功！");
+		
 		
 	}
 	

@@ -1,4 +1,4 @@
-/* JavaScript 类....
+﻿/* JavaScript 类....
 
 
 author princehaku
@@ -46,3 +46,8 @@ function upinfo()
 	
 }
 
+//得到元素
+function $(id)
+{
+	return document.getElementById(id);
+	}

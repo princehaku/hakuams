@@ -289,9 +289,9 @@ class UserAction extends Action{
 		$this->display();
 		
 		}
-	public function register(){
+	public function reg(){
 		//如果开启
-		if(C("CANREGISTER")==0){die();}
+		if($_SESSION['admin']==1||C("CANREGISTER")==1){}else{die();}
 		//导入url
 		//+++++++++++++++++++++++++++++++++++++++++
         $this->assign('pub',C('PUBURL'));

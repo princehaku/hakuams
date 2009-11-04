@@ -1,7 +1,7 @@
 <?php
 
 $config=array(
-	'DEBUG_MODE'		    =>false,
+	'DEBUG_MODE'		    =>1,
 	'DB_TYPE'				=>'mysql',					
 	'DB_HOST'				=>'localhost',  
 	'DB_USER'				=>'root', 
@@ -65,7 +65,10 @@ $config=array(
 				 'url'=>"/User/showall",
 				 'name'=>'用户管理'
 				 ),
-
+		4=>array(
+				 'url'=>"/User/reg",
+				 'name'=>'添加用户'
+				 ),
 		),
 		
 );
