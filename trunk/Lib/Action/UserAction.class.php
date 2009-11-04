@@ -207,15 +207,20 @@ class UserAction extends Action{
 		}
 	
 	public function checkname(){
-		$usr=$_GET['name'];
+		
+		$usr=str_replace(" ","",str_replace(";","",str_replace("'","",uh($_GET['name']))));
+		
 		$user  =  D("User");
+		
 		$result=$user->where(array('username'=>$usr))->findall();
 		
-		if($result=="")
-		{$this->ajaxreturn("用户名可以使用");
+		if(!$result)
+		{
+			echo 1;
 			}
-			else
-		{$this->ajaxreturn("用户名已被占用");
+		else
+		{
+			echo 2;
 			}
 	}
 	

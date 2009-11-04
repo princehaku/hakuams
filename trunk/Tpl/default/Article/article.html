@@ -5,9 +5,20 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>文章管理系统</title>
 <script language='JavaScript' src='{$pub}/Js/main.js'></script>
-<script language='JavaScript' src='{$pub}/Js/picnews.js'></script>
-<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
+<script language="javascript">
+function showpic()
+{
+        if($$("doctype_1").checked==true)
+                {
+                        $$("image").innerHTML='<p>缩略图<input name="image" type="file" /><br /><br />简略的描述<input name="shortcontent" type="text"></p>';}
+                else
+                {
+                        $$("image").innerHTML='<p>简略的描述<input name="shortcontent" type="text"></p>';
+                }
+                
+        }
+
+</script>
 </head>
 <body bgcolor="#99CCCC" onLoad="showpic();">
 	<form action="__APP__/Article/savearticle" method="post" enctype="multipart/form-data" name="article" id="article">
