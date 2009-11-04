@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 /*
 文章的修改以及发布
 
@@ -512,11 +512,6 @@ class ArticleAction extends Action{
 		$doc->shortcontent=htmlspecialchars(str_replace("</script>","",str_replace("\\\"","\"",$_POST['shortcontent'])));
 		//保存目录
 		$doc->cateid=htmlspecialchars($_POST['category']);
-		//删除原来的图片
-		$savePath=C("DIR")."/";
-		unlink($savePath.$tr[0]['picurl']);
-		//删除目录
-		$dir=explode("/",$tr[0]['picurl']);
 		
 		unlink($savePath.$dir[0]);
 		//如果上传的是图片转入图片处理
@@ -530,6 +525,9 @@ class ArticleAction extends Action{
 					}
 			else
 				{
+				//删除原来的图片
+				$savePath=C("DIR")."/";
+				unlink($savePath.$tr[0]['picurl']);
 				$doc->picurl=$this->savepic();
 					}
 			}
