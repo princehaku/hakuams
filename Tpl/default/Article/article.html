@@ -4,23 +4,49 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>文章管理系统</title>
+<script language='JavaScript' src='{$pub}/Js/FCKeditor/fckeditor.js'></script>
+<script language='JavaScript' src='{$pub}/Js/jquery.js'></script>
+<script language='JavaScript' src='{$pub}/Js/jquery.alerts.js'></script>
 <script language='JavaScript' src='{$pub}/Js/main.js'></script>
+<link rel="stylesheet" type="text/css" href="{$pub}/style/jquery.alerts.css"/>
 <script language="javascript">
+
+//初始编辑器
+function editor()
+{
+    var editor=new FCKeditor("editor");
+    editor.BasePath="{$pub}/Js/FCKeditor/";
+    editor.Width=700;
+    editor.Height=450;
+    editor.ToolbarSet="Default";
+    editor.ReplaceTextarea() ;
+    
+}
+
 function showpic()
 {
-        if($$("doctype_1").checked==true)
+        
+        if($$("doctype_0").checked==true)
                 {
-                        $$("image").innerHTML='<p>缩略图<input name="image" type="file" /><br /><br />简略的描述<input name="shortcontent" type="text"></p>';}
-                else
+                        $$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text"></p>';
+						$("#maincontent").show();
+                	}
+		if($$("doctype_1").checked==true)
                 {
-                        $$("image").innerHTML='<p>简略的描述<input name="shortcontent" type="text"></p>';
-                }
+                        $$("ext").innerHTML='<p>缩略图<input name="image" type="file" /><br /><br />简略的描述<input name="shortcontent" type="text"></p>';
+						$("#maincontent").show();
+						}
+		if($$("doctype_2").checked==true)
+                {
+						$$("ext").innerHTML='<p>文件<input name="image" type="file" /><br /><br />描述<input name="shortcontent" type="text"></p>';
+						$("#maincontent").hide();
+						}
                 
         }
 
 </script>
 </head>
-<body bgcolor="#99CCCC" onLoad="showpic();">
+<body bgcolor="#99CCCC" onLoad="editor();showpic();">
 	<form action="__APP__/Article/savearticle" method="post" enctype="multipart/form-data" name="article" id="article">
 	<p style="margin-right=10px;">标题<input name="title" id="title" type="text" value="{$title}"/></p>
 	<p>目录<select name="category" id="category">
@@ -37,12 +63,13 @@ function showpic()
 	  <label>
 	  <input name="doctype" type="radio" id="doctype_1" onClick="showpic();" value="1" />
 	  图文</label>
-      <input name="doctype" type="radio" id="doctype_2" onClick="showpic();" value="0" />
-	  图集</label>
+      <label><input name="doctype" type="radio" id="doctype_2" onClick="showpic();" value="2" />
+	  图集</label></label>
 	]</p>
-    <div id="image"></div>
-正文<br>
-	<html:editor type="FCKeditor" id="editor" name="content" content="{$content}"  height="450px;" width="700px;" /><br>
+    <div id="ext"></div>
+    <div id="maincontent">正文<br>
+	<textarea id="editor" name="content"  height="450px;" width="700px;" ></textarea>
+    </div>
     <input name="" type="button" value="发布" style="margin-right:40px"  onClick="subdoc();"/>
     <a href="__APP__/Article/index">返回</a>
     </form>
