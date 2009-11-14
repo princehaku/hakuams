@@ -35,13 +35,48 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=C("DIR")."/".date("Ymd",time())."/";
+		$savePath=C("DIR")."/pic/".date("Ymd",time())."/";
 		//如果目录不存在则创建目录
 		if(!is_dir($savePath))
 			{
 				if(!mkdir($savePath))
 				{
 					$this->error("创建图片保存目录出错,请检查是否有权限");
+				}
+					}
+			
+		$upload->savePath=$savePath;
+		
+		$upload->allowExts=explode("|",C("PIC_ALLOWEXTS"));
+		
+		if($upload->upload())
+		{
+			$suc= $upload->getUploadFileInfo();
+			
+			return date("Ymd",time())."/".$suc[0]['savename'];
+			}
+		else
+		{
+			$this->error($upload->getErrorMsg()); 
+			}
+		
+	}
+	//保存附件
+	private function saveext()
+	{
+		import("ORG.Net.UploadFile");
+		
+		$upload=new UploadFile();
+		
+		$time=time();	//时间戳
+		
+		$savePath=C("DIR")."/ext/".date("Ymd",time())."/";
+		//如果目录不存在则创建目录
+		if(!is_dir($savePath))
+			{
+				if(!mkdir($savePath))
+				{
+					$this->error("创建文件保存目录出错,请检查是否有权限");
 				}
 					}
 			
@@ -466,6 +501,13 @@ class ArticleAction extends Action{
 			$doc->doctype=1;
 			
 			$doc->picurl=$this->savepic();
+			
+			}
+		if($_POST['doctype']==2){
+			
+			$doc->doctype=2;
+			
+			$doc->picurl=$this->saveext();
 			
 			}
 		//移除有害脚本

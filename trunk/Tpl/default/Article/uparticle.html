@@ -4,26 +4,49 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>文章管理系统</title>
+<script language='JavaScript' src='{$pub}/Js/FCKeditor/fckeditor.js'></script>
+<script language='JavaScript' src='{$pub}/Js/jquery.js'></script>
+<script language='JavaScript' src='{$pub}/Js/jquery.alerts.js'></script>
 <script language='JavaScript' src='{$pub}/Js/main.js'></script>
 <script language='JavaScript'>
 var $sht="{$shortcnt}";
 var $tp="{$doctype}";
 var $picurl="{$picurl}";
+//初始编辑器
+function editor()
+{
+    var editor=new FCKeditor("editor");
+    editor.BasePath="{$pub}/Js/FCKeditor/";
+    editor.Width=700;
+    editor.Height=450;
+    editor.ToolbarSet="Default";
+    editor.ReplaceTextarea() ;
+    
+}
+
 function showpic()
 {
+	if($tp==0||$$("doctype_0").checked==true)
+                {
+                        $$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text"></p>';
+						$("#maincontent").show();
+                	}
 	if($tp==1 || $$("doctype_1").checked==true)
 		{
 			$$("doctype_1").checked=true;
-			$$("ext").innerHTML='<div><div style="width:300px;float:left;">缩略图<input name="image" type="file" /><br />(如不更改请动)<br />简略的描述<input name="shortcontent" type="text" value="' + $sht + '"><br /><br />正文</div><div style="width:300px;float:left;"><img  src="'+$picurl+'" width="200" height="100"></div></div>';}
-		else
-		{
-			$$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text" value="' + $sht + '"></p>正文<br />';
-		}
-		$tp=2;
+			$$("ext").innerHTML='<div><div style="width:300px;float:left;">缩略图<input name="image" type="file" /><br />(如不更改请动)<br />简略的描述<input name="shortcontent" type="text" value="' + $sht + '"><br /><br />正文</div><div style="width:300px;float:left;"><img  src="'+$picurl+'" width="200" height="100"></div></div>';
+			$("#maincontent").show();
+			}
+	if($tp==2||$$("doctype_2").checked==true)
+                {
+						$$("ext").innerHTML='<p>文件<input name="image" type="file" /><br /><br />描述<input name="shortcontent" type="text"></p>';
+						$("#maincontent").hide();
+						}
+		$tp=9;
 	}
 </script>
 </head>
-<body bgcolor="#99CCCC" onLoad="showpic();">
+<body bgcolor="#99CCCC" onLoad="editor();showpic();">
 
 	<form action="__APP__/Article/uparticle" method="post" enctype="multipart/form-data" name="article" id="article">
     <input name="artid" type="hidden" value="{$artid}">
@@ -37,6 +60,7 @@ function showpic()
     <label>
       <input name="doctype" type="radio" id="doctype_1" onClick="showpic();" value="1" />
       图文</label>
+      <label>
        <input name="doctype" type="radio" id="doctype_2" onClick="showpic();" value="0" />
       图集</label>
 ]
@@ -47,9 +71,9 @@ function showpic()
        </volist>
       </select></p>
           <div id="ext"></div>
-<br>
-<html:editor type="FCKeditor" id="editor" name="content" content="{$content}"  height="450px;" width="700px;"  /><br>
-
+<div id="maincontent">
+	<textarea id="editor" name="content" height="450px;" width="700px;" >{$content}</textarea>
+</div>
     <input name="" type="submit" value="更新" style="margin-right:40px"/>
     <a href="__APP__/Article/index">返回</a>
     </form>
