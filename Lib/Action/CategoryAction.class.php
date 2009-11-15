@@ -12,7 +12,7 @@ by
 class CategoryAction extends Action{
 	public function common()
 	{	
-		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/stupub/index.php/Man/index",3);die();}//用户模块
+		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/stupub/index.php/Man!index",3);die();}//用户模块
 		//+++++++++++++++++++++++++++++++++++++++++
 		
 		
@@ -125,7 +125,7 @@ class CategoryAction extends Action{
 		foreach($banner as $i=>$j)
 		{
 			$id=$j['id'];
-			$idv =$idv. "<a href='".C('PUBURL')."/index.php/Category/expand/id/$id'
+			$idv =$idv. "<a href='".C('PUBURL')."/index.php/Category!expand!id!$id'
 			 style='width:60px;color:#FFF;margin:0px 10px;'>".$j['name']."</a>";		}
 			 
 		$this->ajaxreturn($idv);

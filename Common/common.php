@@ -46,6 +46,13 @@ function uh($str)
 			return $str; 
 } 
 
-
+function getUserName($id){
+	$user=D('User');
+	
+	$user=$user->where(array('id'=>(int)$id))->findall();
+	
+	return $user[0]['username'];
+	
+	} 
 		
 ?>

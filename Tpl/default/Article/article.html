@@ -47,13 +47,13 @@ function showpic()
 </script>
 </head>
 <body bgcolor="#99CCCC" onLoad="editor();showpic();">
-	<form action="__APP__/Article/savearticle" method="post" enctype="multipart/form-data" name="article" id="article">
+	<form action="__APP__/Article!savearticle" method="post" enctype="multipart/form-data" name="article" id="article">
 	<p style="margin-right=10px;">标题<input name="title" id="title" type="text" value="{$title}"/></p>
 	<p>目录<select name="category" id="category">
       <option value="">&nbsp;</option>
      <volist  name="cate" id="vo">
       <option value="{$vo.id}">{$vo.name}({$vo.id})</option>
-       </volist>
+     </volist>
       </select>
 	文章类型[
 	<label>
@@ -71,7 +71,7 @@ function showpic()
 	<textarea id="editor" name="content"  height="450px;" width="700px;" ></textarea>
     </div>
     <input name="" type="button" value="发布" style="margin-right:40px"  onClick="subdoc();"/>
-    <a href="__APP__/Article/index">返回</a>
+    <a href="__APP__/Article!index">返回</a>
     </form>
 </body>
 </html>

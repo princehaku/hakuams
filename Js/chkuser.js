@@ -1,4 +1,4 @@
-/* JavaScript 
+﻿/* JavaScript 
 这个用于检测用户注册的信息
 
 author princehaku
@@ -20,7 +20,7 @@ function chkuser()
 		
 				$.ajax({
 								   
-							url: '/hakuams/index.php/User/checkname/name/'+$$('username').value,
+							url: './User!checkname!name!'+$$('username').value,
 							
 							type: 'POST',
 							
@@ -73,6 +73,6 @@ function submitall()
 			$$('reg').submit();}
 	else{
 		
-		alert("填写错误...请检查用户名");
+		$.prompt("填写错误...请检查后再提交");
 	}
 }

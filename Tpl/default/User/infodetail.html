@@ -4,16 +4,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>文章管理系统</title>
 <script language='JavaScript' src='{$pub}/Js/main.js'></script>
-<script language='JavaScript' src='{$pub}/Js/Base.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/prototype.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/mootools.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/Ajax/ThinkAjax.js'></script>
-<script language='JavaScript' src='{$pub}/Js/Form/CheckForm.js'></script>  
-<script language='JavaScript' src='{$pub}/Js/chkuser.js'></script>  
 </head>
 
 <body bgcolor="#99CCCC">
-<form action="__APP__/User/set" method="post" id="reg">
+<form action="__APP__/User!set" method="post" id="reg">
   	  <h2>资料详细</h2>
 	  <p>
       <div align="center"><div id="chkpwd2" style="color:#F00"></div>
@@ -44,7 +38,7 @@
 </table>
 <br />
  <input type="button" name="button" id="button" value="更新"  onclick="upinfo();"/>
-      <a href="__APP__/User/showall">返回</a>
+      <a href="__APP__/User!showall">返回</a>
       </div>
 	</form>
 	

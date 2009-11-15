@@ -19,7 +19,7 @@
     <LI class="user_main_l"></LI>
     <LI class="user_main_c">
     <DIV class="user_main_box">
-    <UL>  <form style="margin: 0;" action="__APP__/User/login" method="post">
+    <UL>  <form style="margin: 0;" action="__APP__/User!login" method="post">
       <LI class="user_main_text">用户名： </LI>
       <LI class="user_main_input"><INPUT class="TxtUserNameCssClass" id="TxtUserName"
       maxLength="20" name="username"> </LI></UL>
@@ -31,7 +31,7 @@
       <LI class="user_main_text">验证码： </LI>
       <LI class="user_main_input">
       <input name="verify" class="TxtVerifyCssClass" id="authcode"  size="8" maxlength="4">
-      <img id="authcodeImg" src="__APP__/Public/verify" style="cursor: pointer;" onClick="cgverify();" alt="点击刷新验证码" title="点击刷新验证码" /></LI></UL></DIV></LI>
+      <img id="authcodeImg" src="__APP__/Public!verify" style="cursor: pointer;" onClick="cgverify();" alt="点击刷新验证码" title="点击刷新验证码" /></LI></UL></DIV></LI>
     <LI class="user_main_r"><INPUT class="IbtnEnterCssClass" id="IbtnEnter"
     style="BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px" type="image" src="{$pub}/Images/user_botton.gif" name="IbtnEnter"> </LI></UL>
   <DD id="user_bottom">

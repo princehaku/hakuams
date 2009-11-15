@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /*
 文章的修改以及发布
 
@@ -119,7 +119,7 @@ class ArticleAction extends Action{
 			
 			}*/
 			
-		$result=$user->where(array('id'=>$_SESSION['user_id']))->findall();
+		$user=$user->where(array('id'=>$_SESSION['user_id']))->findall();
 		
 		$doc=D("Document");
 		
@@ -127,9 +127,9 @@ class ArticleAction extends Action{
 		
 		if($_SESSION['admin']!=1){
 		//非最高等级管理员显示自己的文章
-				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall();
+				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$user[0]['id']))->order("data DESC")->findall();
 				
-				$total=count($doc->where(array('writer'=>$result[0]['username']))->order("data DESC")->findall());
+				$total=count($doc->where(array('writer'=>$user[0]['id']))->order("data DESC")->findall());
 				}
 			else{
 		//最高管理员显示所有文章
@@ -146,11 +146,11 @@ class ArticleAction extends Action{
 					if(C('PERMISSION')==1){
 						if ($j['exam']==0 & $_SESSION['admin']==1)
 						{
-							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/exam/id/".$j['id']."'><font color='#222'>授权</font></a>|";
+							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article!exam!id!".$j['id']."'><font color='#222'>授权</font></a>|";
 						}
 						if ($j['exam']==1 & $_SESSION['admin']==1)
 						{
-							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article/unexam/id/".$j['id']."'>消权</a>|";
+							$result[$i]['through']="<a href='".C('PUBURL')."/index.php/Article!unexam!id!".$j['id']."'>消权</a>|";
 						}
 					 }
 					//如果没有shortcomment指定content的内容
@@ -342,7 +342,7 @@ class ArticleAction extends Action{
 			$doc->query("delete from `".C('DB_PREFIX')
 ."document` where `id`=$id AND `writer`='$usr' Limit 1");
 		}
-		$this->jumpUrl=C('PUBURL')."/index.php/Article/index";
+		$this->jumpUrl=C('PUBURL')."/index.php/Article!index";
 		
 		$this->success("删除成功");
 			
@@ -507,7 +507,7 @@ class ArticleAction extends Action{
 			
 			$doc->doctype=2;
 			
-			$doc->picurl=$this->saveext();
+			$doc->content=$this->saveext();
 			
 			}
 		//移除有害脚本

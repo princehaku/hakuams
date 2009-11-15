@@ -26,29 +26,33 @@ function editor()
 
 function showpic()
 {
+	
 	if($tp==0||$$("doctype_0").checked==true)
                 {
                         $$("ext").innerHTML='<p>简略的描述<input name="shortcontent" type="text"></p>';
 						$("#maincontent").show();
+						$tp=9;
                 	}
 	if($tp==1 || $$("doctype_1").checked==true)
 		{
 			$$("doctype_1").checked=true;
 			$$("ext").innerHTML='<div><div style="width:300px;float:left;">缩略图<input name="image" type="file" /><br />(如不更改请动)<br />简略的描述<input name="shortcontent" type="text" value="' + $sht + '"><br /><br />正文</div><div style="width:300px;float:left;"><img  src="'+$picurl+'" width="200" height="100"></div></div>';
 			$("#maincontent").show();
+			$tp=9;
 			}
 	if($tp==2||$$("doctype_2").checked==true)
-                {
+          {
 						$$("ext").innerHTML='<p>文件<input name="image" type="file" /><br /><br />描述<input name="shortcontent" type="text"></p>';
 						$("#maincontent").hide();
-						}
+						$tp=9;
+			}
 		$tp=9;
 	}
 </script>
 </head>
 <body bgcolor="#99CCCC" onLoad="editor();showpic();">
 
-	<form action="__APP__/Article/uparticle" method="post" enctype="multipart/form-data" name="article" id="article">
+	<form action="__APP__/Article!uparticle" method="post" enctype="multipart/form-data" name="article" id="article">
     <input name="artid" type="hidden" value="{$artid}">
 	<p style="margin-right=10px;">标题 
 	  <input name="title" type="text" value="{$title}"/>
@@ -75,7 +79,7 @@ function showpic()
 	<textarea id="editor" name="content" height="450px;" width="700px;" >{$content}</textarea>
 </div>
     <input name="" type="submit" value="更新" style="margin-right:40px"/>
-    <a href="__APP__/Article/index">返回</a>
+    <a href="__APP__/Article!index">返回</a>
     </form>
 
 
