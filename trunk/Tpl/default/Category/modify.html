@@ -13,7 +13,7 @@ body {
 </style></head>
 
 <body>
-<form id="form2" name="article" method="post" action="__APP__/Category/newcate">
+<form id="form2" name="article" method="post" action="__APP__/Category!newcate">
 <p><b>添加目录：</b></p>
   <p>请选择新目录所在上级目录：
     <select name="category2" id="select2">
@@ -30,7 +30,7 @@ body {
 </p>
 
 </form>
-<form id="form1" name="article" method="post" action="__APP__/Category/modify">
+<form id="form1" name="article" method="post" action="__APP__/Category!modify">
   	<p class="STYLE1">	<b>修改目录：</b></p>
   	<p>请选择所要修改的目录：
   	  <label>
@@ -47,10 +47,10 @@ body {
   	</p>
 
 </form>
-<form id="form3" name="form3" method="post" action="__APP__/Category/delcate">
+<form id="form3" name="form3" method="post" action="__APP__/Category!delcate">
   <p><b>删除目录：</b></p>
   <p>请选择所要删除的目录：
-    <select name="category3" id="select">
+    <select name="category3" id="oselect">
     <volist name="cate" id="vo">
     <option value="{$vo.id}">{$vo.name}</option>
     </volist>
@@ -61,14 +61,14 @@ body {
       <input name="dealarticle" type="radio" id="dealarticle_0" value="1" checked="checked" />
       文章移动到
     </label>
-    <select name="tocate" id="select">
+    <select name="tocate" id="tselect">
         <volist name="cate" id="vo">
         <option value="{$vo.id}">{$vo.name}</option>
         </volist>
     </select>
     <label>
       <input name="dealarticle" type="radio" id="dealarticle_1" value="2" /> 
-      删除</label>
+      删除目录下文章</label>
   </p>
 
   <p>

@@ -18,12 +18,12 @@ class UserAction extends Action{
 		
 		$_SESSION['user_id']="";
 		$_SESSION['admin']=0;
-		$this->jumpUrl=C("PUBURL")."/index.php/Man/index";
+		$this->jumpUrl=C("PUBURL")."/index.php/Man!index";
 		$this->success("退出成功");
 	
 	}
 	public function showall(){
-		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}//用户模块
+		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man!index",3);die();}//用户模块
 		$user  =  D("User");
 		$state =  D("State");
 		$article=D("Document");
@@ -102,7 +102,7 @@ class UserAction extends Action{
 		$User = D("User");
 		if($_POST['name']=="")
 		{
-			$this->error("请输入一个姓名");
+			$this->error("请输入一个用户名");
 			}
 		$User->username=htmlspecialchars($_POST['username']);
 		
@@ -165,7 +165,7 @@ class UserAction extends Action{
 	}
 	public function set(){
 		//更新用户
-		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}
+		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man!index",3);die();}
 		$usl = D("User");
 		
 		$result=$usl->where(array('id'=>$_POST['id']))->limit(1)->findall();
@@ -181,7 +181,7 @@ class UserAction extends Action{
 		//if ($_SESSION['lastpost']!="" & time()-$_SESSION['lastpost']<=60){$this->error("每1分钟只能提交一次");}
 		//$_SESSION['lastpost']=time();
 		
-		$this->jumpUrl=C("PUBURL")."/index.php/User/showall";
+		$this->jumpUrl=C("PUBURL")."/index.php/User!showall";
 		
 		if($usl->where(array('id'=>$_POST['id']))->limit(1)->save()){$this->success("更新成功");}else{$this->success("更新失败");}
 		
@@ -242,7 +242,7 @@ class UserAction extends Action{
 
 	public function infodetail(){
 		//得到用户资料并填充
-		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man/index",3);die();}
+		if ($_SESSION['admin']!=1){echo "对不起..您还没有权利这样做";goto("http://".$_SERVER['HTTP_HOST']."/index.php/Man!index",3);die();}
 		$user  =  D("User");
 		
 		$result=$user->where(array('id'=>uh($_GET['userid'])))->findall();

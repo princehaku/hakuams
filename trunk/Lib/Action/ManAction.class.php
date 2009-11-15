@@ -48,7 +48,7 @@ class ManAction extends Action{
 		
 		$this->display("top");
 		}
-	public function tmp()
+	public function notice()
 	{
 		$this->display();
 		}

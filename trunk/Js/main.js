@@ -31,8 +31,9 @@ function subdoc()
 function upinfo()
 {
 
-	for(i=0;i<=40;i++)
+	for(i=1;i<=100;i++)
 	{
+		if($$('cat'+i)==null){continue;}
 		if($$('cat'+i).checked)
 		{
 			

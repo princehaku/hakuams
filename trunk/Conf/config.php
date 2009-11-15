@@ -12,6 +12,8 @@ $config=array(
 	'DB_NAME'        	    =>'hakuams',
 	/*用户注册的限定时间(毫秒)*/
 	'USERTMLIMIT'			=>2,
+	/*关闭pathinfo*/
+	'PATH_DEPR' => '!',
 	/*网站根目录*/
 	'PUBURL' 		        =>"http://".$_SERVER['HTTP_HOST']."/hakuams",
 	/*网站首页*/
@@ -41,7 +43,7 @@ $config=array(
 	/*普通用户的菜单*/
 	'NORMALMENU'                      =>array(
 		0=>array(
-				 'url'=>"/Article/addarticle",
+				 'url'=>"/Article!addarticle",
 				 'name'=>'添加文章'
 				 ),
 		1=>array(
@@ -52,23 +54,23 @@ $config=array(
 	/*管理员的菜单*/
 	'ADMINMENU'                      =>array(
 		0=>array(
-				 'url'=>"/Article/addarticle",
+				 'url'=>"/Article!addarticle",
 				 'name'=>'添加文章'
 				 ),
 		1=>array(
-				 'url'=>"/Article/index",
+				 'url'=>"/Article!index",
 				 'name'=>'管理文章'
 				 ),
 		2=>array(
-				 'url'=>"/Category/index",
+				 'url'=>"/Category!index",
 				 'name'=>'目录管理'
 				 ),
 		3=>array(
-				 'url'=>"/User/showall",
+				 'url'=>"/User!showall",
 				 'name'=>'用户管理'
 				 ),
 		4=>array(
-				 'url'=>"/User/reg",
+				 'url'=>"/User!reg",
 				 'name'=>'添加用户'
 				 ),
 		),

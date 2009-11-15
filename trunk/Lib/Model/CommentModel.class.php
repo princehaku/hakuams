@@ -3,7 +3,7 @@
 class CommentModel extends Model
 {
 
-	protected $trueTableName = 'comment';
+	//protected $trueTableName = 'comment';
 
 }
 

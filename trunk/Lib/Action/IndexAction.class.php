@@ -137,7 +137,7 @@ class IndexAction extends Action{
         $this->assign('pub',C('PUBURL'));
 		$this->display();
 		*/
-		goto(C("PUBURL")."/index.php/Man/index",0);
+		goto(C("PUBURL")."/index.php/Man!index",0);
 		
     }
 	/*
