@@ -54,5 +54,44 @@ function getUserName($id){
 	return $user[0]['username'];
 	
 	} 
+	//更具A在数据库DB中得到B
+	function getB($db,$a,$b){
+		
+		$res=$db->where($a)->findall();
+	
+		return $res[0][$b];
+	
+	} 
+	
+	function getcategory($db,$list=NULL,$catenum=0,$m=0,&$nums=0){
+		$res=$db->where("`upcat`=".$catenum)->findall();
+		//dump($res);
+		if($res==NULL){
+			//echo "asdsd";
+			return array();
+		}
+		//if($m!=0)print_r($res);$nums++;			
+		foreach($res as $i=>$j)
+			{
+				//echo $res[$i]['id'];
+				$a=explode("|",$list);
+				if($list==NULL||array_key_exists($res[$i]['id'],array_flip($a)))
+				{
+					$result[$nums]['id']=$res[$i]['id'];
+					$result[$nums]['name']=str_repeat(" ---",$m).$res[$i]['name'];
+					$nums++;
+					$cid=$j['id'];
+					//dump(getcategory($db,$list,$cid,$m+1,$nums));
+					$result=array_merge($result,getcategory($db,$list,$cid,$m+1,$nums));
+					
+				}
+			}
+			
+			if($result==NULL){
+				//echo "asdsd";
+				return array();
+				}
+			return $result;
+		}
 		
 ?>
