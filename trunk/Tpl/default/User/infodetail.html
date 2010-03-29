@@ -27,13 +27,14 @@
       <div id="chkemail" style="color:#F00">&nbsp;</div>
 {$title}
 <table width="200">
-<volist name="cate" id="vo">
-  <tr>
-    <td><label>
-      <input type="checkbox" name="" value="{$vo.id}" id="cat{$vo.cat}" {$vo.sck}/>
-      {$vo.name}</label></td>
-  </tr>
+ <tr>
+    <td>
+    <volist name="cate" id="vo">
+ 	<label><input type="checkbox" name="" value="{$vo.id}" id="cat{$vo.cat}" {$vo.sck}/>
+      {$vo.name}</label>    
   </volist>
+  </td>
+  </tr>
  <input id="alcat" name="alcat" type="hidden" value="" />
 </table>
 <br />
