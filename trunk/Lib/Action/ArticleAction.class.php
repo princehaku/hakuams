@@ -347,7 +347,6 @@ class ArticleAction extends Action{
 		$this->success("删除成功");
 			
 	}
-    
 	public function addarticle(){
 		
 		$this->common();
@@ -362,28 +361,18 @@ class ArticleAction extends Action{
 			$result=$user->where(array('id'=>$_SESSION['user_id']))->findall();
 			
 			$b=$result[0]['alcat'];
-			
-			$a=explode("|",$b);
-			
+					
 			$result=array ();
+			//echo $b;
+			$result=getcategory($cate,$b);
 			
-			foreach($a as $i=>$j)
-			{
-				$resu = $cate->where(array('id'=>$j))->findall();
-				
-				$result[$i]['id']=$resu[0]['id'];
-				
-				$result[$i]['name']=$resu[0]['name'];
-				
-				}
 			$this->assign('cate',$result);
 			
 		}
 		else
 		{
-		$result=$cate->findall();
-		
-		$this->assign('cate',$result);
+			$result=getcategory($cate);
+			$this->assign('cate',$result);
 		}
 		
 		$this->common();
@@ -443,7 +432,7 @@ class ArticleAction extends Action{
 		$this->assign('nowcatename',"不改变目录".$tr[0]['cateid']);
 		
 		$cate=D("Category");
-		//更具用户的权限设置显示目录
+		//更具用户的权限设置显示目
 		if ($_SESSION['admin']!=1){
 			
 			$user=D('User');
@@ -451,29 +440,18 @@ class ArticleAction extends Action{
 			$result=$user->where(array('id'=>$_SESSION['user_id']))->findall();
 			
 			$b=$result[0]['alcat'];
-			
-			$a=explode("|",$b);
-			
+					
 			$result=array ();
+			//echo $b;
+			$result=getcategory($cate,$b);
 			
-			foreach($a as $i=>$j)
-			{
-				$resu = $cate->where(array('id'=>$j))->findall();
-				
-				$result[$i]['id']=$resu[0]['id'];
-				
-				$result[$i]['name']=$resu[0]['name'];
-				
-				}
-				
 			$this->assign('cate',$result);
 			
 		}
 		else
 		{
-		$result=$cate->findall();
-		
-		$this->assign('cate',$result);
+			$result=getcategory($cate);
+			$this->assign('cate',$result);
 		}
 		$this->display('uparticle');
 		
