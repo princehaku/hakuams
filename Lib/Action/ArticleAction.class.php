@@ -35,7 +35,9 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=C("DIR")."/pic/".date("Ymd",time())."/";
+		$savePath=$_SERVER['DOCUMENT_ROOT'].C("DIR")."/".date("Ymd",time())."/";
+		
+		echo $savePath;
 		//如果目录不存在则创建目录
 		if(!is_dir($savePath))
 			{
@@ -70,7 +72,7 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=C("DIR")."/ext/".date("Ymd",time())."/";
+		$savePath=$_SERVER['DOCUMENT_ROOT'].C("DIR")."/".date("Ymd",time())."/";
 		//如果目录不存在则创建目录
 		if(!is_dir($savePath))
 			{
@@ -127,9 +129,9 @@ class ArticleAction extends Action{
 		
 		if($_SESSION['admin']!=1){
 		//非最高等级管理员显示自己的文章
-				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$user[0]['id']))->order("data DESC")->findall();
+				$result=$doc->LIMIT("$pgnum,$pglit")->where(array('writer'=>$user[0]['name']))->order("data DESC")->findall();
 				
-				$total=count($doc->where(array('writer'=>$user[0]['id']))->order("data DESC")->findall());
+				$total=count($doc->where(array('writer'=>$user[0]['name']))->order("data DESC")->findall());
 				}
 			else{
 		//最高管理员显示所有文章
@@ -399,7 +401,7 @@ class ArticleAction extends Action{
 		//权限验证
 		if($_SESSION['admin']!=1){
 		
-			$tr=$doc->where(array('writer'=>$result[0]['username'],'id'=>$artid))->findall();
+			$tr=$doc->where(array('writer'=>$result[0]['name'],'id'=>$artid))->findall();
 		}
 		else
 		{
@@ -485,7 +487,7 @@ class ArticleAction extends Action{
 			
 			$doc->doctype=2;
 			
-			$doc->content=$this->saveext();
+			$doc->picurl=$this->saveext();
 			
 			}
 		//移除有害脚本
@@ -558,6 +560,13 @@ class ArticleAction extends Action{
 			}
 		//$doc->data=time();
 		
+		if($_POST['doctype']==2){
+			
+			$doc->doctype=2;
+			
+			$doc->picurl=$this->saveext();
+			
+			}
 		if(
 		$doc->where(array('id'=>$_POST['artid']))->save()
 		){
