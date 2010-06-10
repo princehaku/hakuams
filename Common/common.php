@@ -64,6 +64,21 @@ function getUserName($id){
 	} 
 	
 	function getcategory($db,$list=NULL,$catenum=0,$m=0,&$nums=0){
+		if($list!=NULL)
+		{
+			$result=array ();
+			$r=explode("|",$list);
+			//print_r($r);
+			foreach($r as $i=>$j)
+			{
+				$res=$db->where("`id`=".$j)->findall();
+				$result[$i]=$res[0];
+				//array_merge($result,$res);
+			}
+			//print_r($result);
+			return $result;
+			
+			}
 		$res=$db->where("`upcat`=".$catenum)->findall();
 		//dump($res);
 		if($res==NULL){
