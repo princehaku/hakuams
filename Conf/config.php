@@ -31,9 +31,9 @@ $config=array(
 	/*在这个时间范围内登陆只算一次*/
 	'LGTIME'				=>3600,
 	/*图片和文件的上传目录(注意php的设置是否可以跨htdocs)*/
-	'DIR'                   =>'D:/htdocs/hakuams/uploads',
+	'DIR'                   =>'D:/htdocs/uploads',
 	/*图片显示的路径设置(用于后台缩略图的正确显示)*/
-	'SPICURL'                   =>'/hakuams/uploads/',
+	'SPICURL'                   =>'/uploads/',
 	/*允许上传的图片类型*/
 	'PIC_ALLOWEXTS'      =>'jpg|jpge|gif|bmp',
 	/*允许上传的文件类型*/
