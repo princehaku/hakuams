@@ -35,7 +35,7 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=$_SERVER['DOCUMENT_ROOT'].C("DIR")."/".date("Ymd",time())."/";
+		$savePath=C("DIR")."/".date("Ymd",time())."/";
 		
 		echo $savePath;
 		//如果目录不存在则创建目录
@@ -72,7 +72,7 @@ class ArticleAction extends Action{
 		
 		$time=time();	//时间戳
 		
-		$savePath=$_SERVER['DOCUMENT_ROOT'].C("DIR")."/".date("Ymd",time())."/";
+		$savePath=C("DIR")."/".date("Ymd",time())."/";
 		//如果目录不存在则创建目录
 		if(!is_dir($savePath))
 			{
