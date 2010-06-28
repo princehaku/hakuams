@@ -1,6 +1,6 @@
 <?php
 		// 该入口文件由ThinkPHP自动生成
-		define('THINK_PATH', '../ThinkPHP');
+		define('THINK_PATH', './ThinkPHP');
 		//定义项目名称，如果不定义，默认为入口文件名称
 		define('APP_NAME', 'job');
 		define('APP_PATH', '.');
